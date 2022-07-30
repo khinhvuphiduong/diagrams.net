@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T07:32:30.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" version="20.1.1" etag="qt2PTLE_dk5-caPWpm0I" type="github"><diagram id="1N4KbfK2wY7o2MSILyyq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-30T07:41:51.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" etag="FK_rzQSvf-C9WnhQWLuD" version="20.1.1" type="github">
+  <diagram id="1N4KbfK2wY7o2MSILyyq" name="Page-1">
+    <mxGraphModel dx="942" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-1" target="X6Q-HqkUy_vOxcuhvxk5-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-1" value="Huawei Bridge&lt;br&gt;192.168.100.1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-9" target="X6Q-HqkUy_vOxcuhvxk5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-9" target="X6Q-HqkUy_vOxcuhvxk5-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-9" value="TP-Link C64&lt;br&gt;192.168.100.253" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="185" as="sourcePoint" />
+            <mxPoint x="730" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-11" target="X6Q-HqkUy_vOxcuhvxk5-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-11" value="Netis Switch 1G" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-14" value="Seagate HomeFlex NAS&lt;br&gt;192.168.100.8" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.external_storage;" vertex="1" parent="1">
+          <mxGeometry x="685" y="260" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-18" value="Camera Server&lt;br&gt;192.168.100.4" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-19" value="Promox Server&lt;br&gt;192.168.100.20" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="100" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
