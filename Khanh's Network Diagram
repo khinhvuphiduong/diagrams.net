@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T07:42:51.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" etag="S9muKHCeiYe1iZxm7jTN" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T07:43:22.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" etag="9kfgDHYkNLS5-3h5SSHx" version="20.1.1" type="github" pages="2">
   <diagram id="1N4KbfK2wY7o2MSILyyq" name="Khanh&#39;s Network">
     <mxGraphModel dx="942" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,6 +44,14 @@
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-19" value="Promox Server&lt;br&gt;192.168.100.20" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
           <mxGeometry x="695" y="70" width="100" height="35" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3r3TAXwxnOEO9E6ZxmaX" name="AWS Network">
+    <mxGraphModel dx="942" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
