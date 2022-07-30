@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-30T07:42:14.265Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" etag="ec1TG9tiY5e5tdkoaXX1" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-30T07:42:39.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.71" etag="IfaNkacYpzOV8QCFIef6" version="20.1.1" type="github">
   <diagram id="1N4KbfK2wY7o2MSILyyq" name="Khanh&#39;s Network">
     <mxGraphModel dx="942" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-9" value="TP-Link C64&lt;br&gt;192.168.100.253" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
           <mxGeometry x="230" y="250" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="X6Q-HqkUy_vOxcuhvxk5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="X6Q-HqkUy_vOxcuhvxk5-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="265" as="sourcePoint" />
             <mxPoint x="740" y="185" as="targetPoint" />
@@ -36,13 +36,13 @@
           <mxGeometry x="420" y="250" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-14" value="Seagate HomeFlex NAS&lt;br&gt;192.168.100.8" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.external_storage;" vertex="1" parent="1">
-          <mxGeometry x="695" y="340" width="90" height="100" as="geometry" />
+          <mxGeometry x="700" y="310" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-18" value="Camera Server&lt;br&gt;192.168.100.4" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
-          <mxGeometry x="230" y="150" width="100" height="35" as="geometry" />
+          <mxGeometry x="230" y="70" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-19" value="Promox Server&lt;br&gt;192.168.100.20" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="100" height="35" as="geometry" />
+          <mxGeometry x="695" y="70" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
