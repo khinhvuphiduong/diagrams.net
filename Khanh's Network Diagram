@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-08T16:47:03.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.83" etag="gStpVmJKQsc0Eqe0H5A9" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-09T00:52:22.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.83" etag="GqYiUkIhflhIdkCq_TtA" version="20.2.3" type="github" pages="2">
   <diagram id="1N4KbfK2wY7o2MSILyyq" name="Khanh&#39;s Network">
     <mxGraphModel dx="1422" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,7 +18,7 @@
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-9" target="X6Q-HqkUy_vOxcuhvxk5-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_xJN6-pk25CTzTyb4w6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-9" target="b_xJN6-pk25CTzTyb4w6-1">
+        <mxCell id="b_xJN6-pk25CTzTyb4w6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="X6Q-HqkUy_vOxcuhvxk5-9" target="b_xJN6-pk25CTzTyb4w6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-9" value="TP-Link C64&lt;br&gt;192.168.100.253&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;khinhvuphiduong.tplinkdns.com&lt;/span&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" parent="1" vertex="1">
@@ -47,13 +47,13 @@
         <mxCell id="X6Q-HqkUy_vOxcuhvxk5-19" value="Promox Server&lt;br&gt;192.168.100.20:8006" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" parent="1" vertex="1">
           <mxGeometry x="695" y="70" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="b_xJN6-pk25CTzTyb4w6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b_xJN6-pk25CTzTyb4w6-1" target="b_xJN6-pk25CTzTyb4w6-9">
+        <mxCell id="b_xJN6-pk25CTzTyb4w6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b_xJN6-pk25CTzTyb4w6-1" target="b_xJN6-pk25CTzTyb4w6-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b_xJN6-pk25CTzTyb4w6-1" value="ThanhAn HYPER-V HOST" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" vertex="1" parent="1">
+        <mxCell id="b_xJN6-pk25CTzTyb4w6-1" value="ThanhAn HYPER-V HOST&lt;br&gt;192.168.100.15/24&lt;br&gt;RDM: 33389:3389" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.nas_filer;" parent="1" vertex="1">
           <mxGeometry x="230" y="530" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="b_xJN6-pk25CTzTyb4w6-9" value="Hostname: Ansible&lt;br&gt;Ext IP: 192.168.100.16/24&lt;br&gt;Int IP: 10.10.1.16/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+        <mxCell id="b_xJN6-pk25CTzTyb4w6-9" value="Hostname: Ansible&lt;br&gt;Ext IP: 192.168.100.16/24&lt;br&gt;Int IP: 10.10.1.16/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
           <mxGeometry x="70" y="585" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
