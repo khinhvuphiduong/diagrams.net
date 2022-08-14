@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T18:44:55.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.83" etag="pShqXQsacYEzMX8dw1Co" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-14T04:26:09.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 OPR/89.0.4447.83" etag="47xAwC9ewuqmNry0FWKU" version="20.2.3" type="github" pages="2">
   <diagram id="1N4KbfK2wY7o2MSILyyq" name="Khanh&#39;s Network">
-    <mxGraphModel dx="942" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,19 +53,19 @@
         <mxCell id="wI9Rpb-zKX5EZqs-1U8D-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="620" width="550" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-1" value="Hostname: Docker&lt;br&gt;Ext IP: 192.168.100.17/24&lt;br&gt;Int IP: 10.10.1.17/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-1" value="Hostname: Docker&lt;br&gt;Ext IP: 192.168.100.17/24&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
           <mxGeometry x="190" y="650" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="b_xJN6-pk25CTzTyb4w6-9" value="Hostname: Ansible&lt;br&gt;Ext IP: 192.168.100.16/24&lt;br&gt;Int IP: 10.10.1.16/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
+        <mxCell id="b_xJN6-pk25CTzTyb4w6-9" value="Hostname: Ansible&lt;br&gt;Ext IP: 192.168.100.16/24&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" parent="1" vertex="1">
           <mxGeometry x="30" y="650" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-3" value="Hostname: k8smater-pre&lt;br&gt;Ext IP: 192.168.100.18/24&lt;br&gt;Int IP: 10.10.1.18/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-3" value="Hostname: k8smater-pre&lt;br&gt;Ext IP: 192.168.100.18/24&lt;br&gt;K8S: 10.10.0.0/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
           <mxGeometry x="370" y="650" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-7" value="Hostname: k8sworker-1&lt;br&gt;Ext IP: 192.168.100.19/24&lt;br&gt;Int IP: 10.10.1.19/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-7" value="Hostname: k8sworker-1&lt;br&gt;Ext IP: 192.168.100.19/24&lt;br&gt;K8S: 10.10.0.0/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
           <mxGeometry x="30" y="810" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-8" value="Hostname: k8sworker-2&lt;br&gt;Ext IP: 192.168.100.20/24&lt;br&gt;Int IP: 10.10.1.20/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+        <mxCell id="wI9Rpb-zKX5EZqs-1U8D-8" value="Hostname: k8sworker-2&lt;br&gt;Ext IP: 192.168.100.20/24&lt;br&gt;K8S: 10.10.0.0/16&lt;br&gt;Pri IP:&lt;br&gt;SSH - 22" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
           <mxGeometry x="190" y="810" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
