@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T07:42:51.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="lDFFN_c6POJ8TlY3Mjt8" version="21.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-15T07:48:32.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="-FeTNCTwiBrmLxF_7opy" version="21.6.8" type="github" pages="4">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
           <mxGeometry x="420" y="50" width="109" height="91" as="geometry" />
         </mxCell>
         <mxCell id="oFzIHFcvIKZ6H3F6DOEA-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-40">
-          <mxGeometry x="22.68" width="63.64" height="50" as="geometry" />
+          <mxGeometry x="16.34" y="1.0399999999999991" width="76.32" height="59.96" as="geometry" />
         </mxCell>
         <mxCell id="oFzIHFcvIKZ6H3F6DOEA-39" value="&lt;b&gt;haproxy&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-40">
           <mxGeometry x="13.966666666666697" y="61" width="81.06666666666666" height="30" as="geometry" />
