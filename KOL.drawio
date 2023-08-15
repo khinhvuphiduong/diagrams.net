@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T08:33:16.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="xEA1TLAf9ENWsNfx5e5I" version="21.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-15T08:34:43.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="_hU98yXlg11F2giKUhwz" version="21.6.8" type="github" pages="4">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,24 +28,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-88" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="700" y="560" width="89" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-82" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-88">
-          <mxGeometry x="10" y="-9.5" width="64.5" height="64.5" as="geometry" />
-        </mxCell>
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-84" value="&lt;b&gt;KiotViet Master&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-88">
-          <mxGeometry y="60" width="89" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-89" value="" style="group" vertex="1" connectable="0" parent="oFzIHFcvIKZ6H3F6DOEA-88">
-          <mxGeometry x="-221" y="-15" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-91" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-89">
-          <mxGeometry x="20" y="-5" width="65" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-92" value="&lt;b&gt;DB Free Premium&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="oFzIHFcvIKZ6H3F6DOEA-89">
-          <mxGeometry y="60" width="110" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-2" value="Nomad Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="550" y="721.5" width="48.5" height="48.5" as="geometry" />
         </mxCell>
@@ -125,19 +107,19 @@
           <mxGeometry width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-44" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freepnglogos.com/uploads/shopee-logo-png/shopee-logo-shop-with-the-gentlemen-collection-and-win-the-shopee-0.png;" vertex="1" parent="1">
-          <mxGeometry x="138.05" y="710" width="29.97" height="30" as="geometry" />
+          <mxGeometry x="669.1500000000001" y="1070" width="29.97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-46" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://salt.tikicdn.com/cache/w500/ts/seller/ee/fa/a0/98f3f134f85cff2c6972c31777629aa0.png;" vertex="1" parent="1">
-          <mxGeometry x="194.03" y="721.5" width="31.5" height="31.5" as="geometry" />
+          <mxGeometry x="725.13" y="1081.5" width="31.5" height="31.5" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-47" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968764.png;" vertex="1" parent="1">
-          <mxGeometry x="260" y="706.5" width="33.5" height="33.5" as="geometry" />
+          <mxGeometry x="791.1" y="1066.5" width="33.5" height="33.5" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-49" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.chanhtuoi.com/uploads/2020/06/logo-lazada-2.png;" vertex="1" parent="1">
-          <mxGeometry x="90" y="650" width="40" height="40" as="geometry" />
+          <mxGeometry x="621.1" y="1010" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-52" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png;" vertex="1" parent="1">
-          <mxGeometry x="188.05" y="610" width="40" height="40" as="geometry" />
+          <mxGeometry x="719.1500000000001" y="970" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-57" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="290" y="920" width="228.51999999999998" height="219.1099999999999" as="geometry" />
@@ -162,6 +144,21 @@
         </mxCell>
         <mxCell id="RoGR-2hsgg3_OwnHd3ig-58" value="Nomad Worker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;rotation=90;" vertex="1" parent="RoGR-2hsgg3_OwnHd3ig-57">
           <mxGeometry x="128.51999999999998" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-91" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg;container=0;" vertex="1" parent="1">
+          <mxGeometry x="328" y="560" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-92" value="&lt;b&gt;DB Free Premium&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="1">
+          <mxGeometry x="308" y="625" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RoGR-2hsgg3_OwnHd3ig-59" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="529" y="575.5" width="101" height="94.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-82" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg;" vertex="1" parent="RoGR-2hsgg3_OwnHd3ig-59">
+          <mxGeometry x="18.25" width="64.5" height="64.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oFzIHFcvIKZ6H3F6DOEA-84" value="&lt;b&gt;KiotViet Master&lt;/b&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;container=0;" vertex="1" parent="RoGR-2hsgg3_OwnHd3ig-59">
+          <mxGeometry y="64.5" width="101" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
