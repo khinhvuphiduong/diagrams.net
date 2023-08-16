@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T03:54:12.113Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="CrgF4KJTZAPI_Va1Gmot" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-16T03:54:21.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="dweua_Onp-VYIBFUhxdu" version="21.6.8" type="github" pages="5">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3080" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -581,7 +581,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1cL4GlU1U6NVLTypixPo-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.319;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gjrfIeVWyx0TVvUm6IKJ-29" target="vXlluRrlJUx0qFv7zdfJ-1">
+        <mxCell id="1cL4GlU1U6NVLTypixPo-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.319;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="gjrfIeVWyx0TVvUm6IKJ-29" target="vXlluRrlJUx0qFv7zdfJ-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1200" y="540" as="sourcePoint" />
             <mxPoint x="-1150" y="490" as="targetPoint" />
