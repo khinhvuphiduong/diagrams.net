@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T03:48:56.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="G_ewjGUoeu1ayd4piFzn" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-16T03:49:26.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="ZkJms0-PSbstK3EF5XPE" version="21.6.8" type="github" pages="5">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3080" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c7rHKlfq9uK405RVSKtM-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="c7rHKlfq9uK405RVSKtM-35" target="c7rHKlfq9uK405RVSKtM-11" edge="1">
+        <mxCell id="c7rHKlfq9uK405RVSKtM-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="c7rHKlfq9uK405RVSKtM-35" target="c7rHKlfq9uK405RVSKtM-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-770" y="591" as="sourcePoint" />
             <mxPoint x="-720" y="541" as="targetPoint" />
@@ -415,7 +415,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gjrfIeVWyx0TVvUm6IKJ-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1.015;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" source="gjrfIeVWyx0TVvUm6IKJ-29" target="gjrfIeVWyx0TVvUm6IKJ-8" edge="1">
+        <mxCell id="gjrfIeVWyx0TVvUm6IKJ-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1.015;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gjrfIeVWyx0TVvUm6IKJ-29" target="gjrfIeVWyx0TVvUm6IKJ-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-700" y="662" as="sourcePoint" />
             <mxPoint x="-650" y="612" as="targetPoint" />
