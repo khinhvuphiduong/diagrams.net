@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T03:23:33.504Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="7WaiZqr2hRz7Pnnu6NRz" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-16T03:48:56.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="G_ewjGUoeu1ayd4piFzn" version="21.6.8" type="github" pages="5">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3080" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vpJv-vPMpvS1EP-Pk6br" name="Facebook POS">
-    <mxGraphModel dx="2637" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -501,7 +501,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vXlluRrlJUx0qFv7zdfJ-3" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="-366.1400000000001" y="110" width="113.5" height="60" as="geometry" />
+          <mxGeometry x="-1200" y="140" width="113.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4h5lTR26NUIrKzSR98q9-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5968/5968764.png;" parent="vXlluRrlJUx0qFv7zdfJ-3" vertex="1">
           <mxGeometry y="22.5" width="32.625" height="32.625" as="geometry" />
@@ -545,13 +545,16 @@
         <mxCell id="yx8iHjlYYS0OytIkxFpG-9" value="&lt;h1&gt;Note&lt;/h1&gt;&lt;p&gt;- Hiện tại dùng nginx để nhận webhook từ facebook. Tuy nhiên nginx miễn phí thì không sử dụng consul sd được -&amp;gt; dùng HA proxy để thay thế&lt;/p&gt;&lt;p&gt;- Cần làm rõ hệ thống Elasticsearch thu thập các thông tin gì? Có ghi nhận log từ webook không? Chuyển lên nomad thì làm sao biết là từ FacebookPOS app&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1640" y="30" width="340" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="yx8iHjlYYS0OytIkxFpG-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#B09500;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#e3c800;shape=connector;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="4h5lTR26NUIrKzSR98q9-4" target="gjrfIeVWyx0TVvUm6IKJ-1" edge="1">
+        <mxCell id="yx8iHjlYYS0OytIkxFpG-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#B09500;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#e3c800;shape=connector;" parent="1" source="vXlluRrlJUx0qFv7zdfJ-1" target="gjrfIeVWyx0TVvUm6IKJ-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-550" y="220" as="sourcePoint" />
             <mxPoint x="-450" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-500" y="220" />
-              <mxPoint x="-550" y="170" />
+              <mxPoint x="-900" y="180" />
+              <mxPoint x="-870" y="190" />
+              <mxPoint x="-850" y="170" />
+              <mxPoint x="-690" y="150" />
+              <mxPoint x="-660" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -576,6 +579,21 @@
         <mxCell id="bhuJv70innmO4yhy1g0x-2" value="filebeat-facebook pos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" parent="bhuJv70innmO4yhy1g0x-1" vertex="1" connectable="0">
           <mxGeometry x="0.179" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1cL4GlU1U6NVLTypixPo-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.319;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gjrfIeVWyx0TVvUm6IKJ-29" target="vXlluRrlJUx0qFv7zdfJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1200" y="540" as="sourcePoint" />
+            <mxPoint x="-1150" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1150" y="540" />
+              <mxPoint x="-1200" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1cL4GlU1U6NVLTypixPo-2" value="call facebook" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1cL4GlU1U6NVLTypixPo-1">
+          <mxGeometry x="0.0975" y="-9" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
