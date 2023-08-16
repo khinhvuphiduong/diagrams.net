@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T03:54:21.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="dweua_Onp-VYIBFUhxdu" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-16T06:34:51.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="ToltSfCwUxUOS4WHIFg_" version="21.6.8" type="github" pages="5">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3080" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -802,8 +802,8 @@
         <mxCell id="dNeIkuJ9UzxW5WFYnIWx-47" value="feedpost worker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1013.13" y="551.0033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
         </mxCell>
-        <mxCell id="dNeIkuJ9UzxW5WFYnIWx-48" value="webhook buffer worker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1143.55" y="551.0033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
+        <mxCell id="dNeIkuJ9UzxW5WFYnIWx-48" value="kv-omni-channel-api" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1290" y="549.5033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="dNeIkuJ9UzxW5WFYnIWx-49" value="livestream worker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1290" y="631.0033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
@@ -822,9 +822,6 @@
         </mxCell>
         <mxCell id="dNeIkuJ9UzxW5WFYnIWx-54" value="report worker" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1013.1299999999999" y="711.0033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
-        </mxCell>
-        <mxCell id="dNeIkuJ9UzxW5WFYnIWx-55" value="webhook receiver" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1280" y="551.0033333333333" width="38.04999999999999" height="34.99999999999999" as="geometry" />
         </mxCell>
         <mxCell id="dNeIkuJ9UzxW5WFYnIWx-57" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#B09500;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#e3c800;shape=connector;" edge="1" parent="1" source="dNeIkuJ9UzxW5WFYnIWx-44" target="dNeIkuJ9UzxW5WFYnIWx-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
