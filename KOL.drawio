@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T09:29:51.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="9W6rQw1ixcNR0tW-T-FO" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-16T09:30:15.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="p6ysGCSrnyvmzXvIh80V" version="21.6.8" type="github" pages="5">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3080" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -975,10 +975,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Hn6Ojq79smX9Uwb9EpO-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#B20000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#e51400;shape=connector;exitX=1;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="dNeIkuJ9UzxW5WFYnIWx-45" target="dNeIkuJ9UzxW5WFYnIWx-26">
+        <mxCell id="4Hn6Ojq79smX9Uwb9EpO-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#B20000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#e51400;shape=connector;exitX=1;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dNeIkuJ9UzxW5WFYnIWx-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-740" y="650" as="sourcePoint" />
-            <mxPoint x="-690" y="600" as="targetPoint" />
+            <mxPoint x="-360" y="520" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-690" y="650" />
               <mxPoint x="-740" y="600" />
