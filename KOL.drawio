@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T17:24:16.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="e3feRN8jjgiozzfIVpo7" version="21.6.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-17T01:48:23.246Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="eeiUyCEKqq7sD1LY5Fca" version="21.6.8" type="github" pages="4">
   <diagram name="KiotViet Free/Premium" id="e1X-Z8ea0z3AbN-QaEDR">
     <mxGraphModel dx="3691" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vpJv-vPMpvS1EP-Pk6br" name="Facebook POS">
-    <mxGraphModel dx="2637" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3332" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -822,12 +822,6 @@
         <mxCell id="vWAV2Y1xMgVPIz5IA6uo-23" value="kol-sendo-onhand-service" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.guest_agent_customization;fontStyle=1" parent="QHWfMlAsXSnZAu5vbJDw-5" vertex="1">
           <mxGeometry x="236.8699999999999" y="614.0507667900581" width="35.245372818614484" height="32.418720253833946" as="geometry" />
         </mxCell>
-        <mxCell id="QJsfmmNheRcOsl-In-Jk-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;labelBackgroundColor=default;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#dae8fc;shape=connector;curved=1;entryX=0.925;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QHWfMlAsXSnZAu5vbJDw-5" target="dNeIkuJ9UzxW5WFYnIWx-45">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="25" y="206.73188789000525" as="sourcePoint" />
-            <mxPoint x="125" y="206.73188789000525" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QJsfmmNheRcOsl-In-Jk-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;labelBackgroundColor=default;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#dae8fc;shape=connector;curved=1;entryX=0.925;entryY=0.26;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="QHWfMlAsXSnZAu5vbJDw-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="27.039999999999964" y="338.84717080909564" as="sourcePoint" />
@@ -851,6 +845,12 @@
         </mxCell>
         <mxCell id="1Tv5aMwmNEIVN1a2NLsp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="QHWfMlAsXSnZAu5vbJDw-5" source="dNeIkuJ9UzxW5WFYnIWx-46" target="dNeIkuJ9UzxW5WFYnIWx-46">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QJsfmmNheRcOsl-In-Jk-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;labelBackgroundColor=default;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#dae8fc;shape=connector;curved=1;" edge="1" parent="QHWfMlAsXSnZAu5vbJDw-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="200.4618878900053" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QHWfMlAsXSnZAu5vbJDw-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#dae8fc;shape=connector;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dNeIkuJ9UzxW5WFYnIWx-45" target="dNeIkuJ9UzxW5WFYnIWx-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
