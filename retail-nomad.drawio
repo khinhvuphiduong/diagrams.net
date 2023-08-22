@@ -1,9 +1,263 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T07:00:29.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" version="21.6.8" etag="GgESTXVTsxXzBKSHn7yk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T07:45:43.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="chSM6mInjrNHjzjNay9I" version="21.6.8" type="github">
   <diagram name="Page-1" id="0y15OAwdEvQ6BRsmeDMm">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-1" target="_bVZ1d8dCjfE9aQv2Lmk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="126" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-2" target="_bVZ1d8dCjfE9aQv2Lmk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-2" value="deploy.sh" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-4" value="Process comand option" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="193" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-7" value="- TAGS&lt;br&gt;- SUB_ENV&lt;br&gt;- JOB_NAME&lt;br&gt;- VERSION&lt;br&gt;- ENVIRONMENT&lt;br&gt;- PLAN&lt;br&gt;- OUT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291" y="100" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.018;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="250" as="sourcePoint" />
+            <mxPoint x="256" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="250" />
+              <mxPoint x="206" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="363" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-27" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bVZ1d8dCjfE9aQv2Lmk-15">
+          <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-34" target="_bVZ1d8dCjfE9aQv2Lmk-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="86" y="333" as="sourcePoint" />
+            <mxPoint x="61" y="563" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="31" y="328" />
+              <mxPoint x="31" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-26" value="false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_bVZ1d8dCjfE9aQv2Lmk-24">
+          <mxGeometry x="0.0028" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-14" target="_bVZ1d8dCjfE9aQv2Lmk-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-14" value="Get &lt;b&gt;JOB_NAME &lt;/b&gt;from &lt;b&gt;TAGS&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-16" value="Trường hợp có truyền tag vào kiểu như&amp;nbsp;&lt;br&gt;&lt;b&gt;4.0.229-production-kv-tracking-recovery-scan&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="251" y="253" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="333" as="sourcePoint" />
+            <mxPoint x="281" y="303" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="281" y="353" />
+              <mxPoint x="231" y="303" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-21" target="_bVZ1d8dCjfE9aQv2Lmk-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-21" value="Get &lt;b&gt;JOB_TYPE&amp;nbsp;&lt;/b&gt;from &lt;b&gt;YAML file&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="533" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-28" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 10px;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&amp;nbsp; &amp;nbsp; IFS&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&#39;,&#39;&lt;/span&gt; read &lt;span style=&quot;color: #5ac16c;&quot;&gt;VERSION&lt;/span&gt; &lt;span style=&quot;color: #5ac16c;&quot;&gt;ENVIRONMENT&lt;/span&gt; &lt;span style=&quot;color: #5ac16c;&quot;&gt;SUB_ENV&lt;/span&gt; &lt;span style=&quot;color: #dd5555;&quot;&gt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt; $(&lt;span style=&quot;color: #5ac16c;&quot;&gt;echo&lt;/span&gt; &lt;span style=&quot;color: #eee0e0;&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;TAGS&lt;/span&gt;&lt;span style=&quot;color: #eee0e0;&quot;&gt;}&lt;/span&gt; &lt;span style=&quot;color: #dd5555;&quot;&gt;|&lt;/span&gt; awk &lt;span style=&quot;color: #5ac16c;&quot;&gt;-F&#39;-&#39;&lt;/span&gt; &lt;span style=&quot;color: #5ac16c;&quot;&gt;&#39;{print $1&quot;,&quot;$2&quot;,&quot;$3}&#39;&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #eee0e0;&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;TAGS&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$VERSION&lt;/span&gt;-&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;-&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;-&lt;span style=&quot;color: #dd5555;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;color: #eee0e0;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="251" y="363" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201" y="453" as="sourcePoint" />
+            <mxPoint x="251" y="403" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="251" y="453" />
+              <mxPoint x="201" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-31" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;JOB_TYPE&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;$(&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;cat jobs/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;|&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt; python -m yq -r &#39;.job_type&#39;&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261" y="473" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="565" as="sourcePoint" />
+            <mxPoint x="256" y="513" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="256" y="565" />
+              <mxPoint x="206" y="515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-4" target="_bVZ1d8dCjfE9aQv2Lmk-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="253" as="sourcePoint" />
+            <mxPoint x="146" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-34" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;[! -z &quot;TAGS&quot; ]&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="88.5" y="293" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-37" target="_bVZ1d8dCjfE9aQv2Lmk-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Check env file&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="93.5" y="663" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-39" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;[ &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;-f&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; .env.&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;.yaml ]&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="613" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-40" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-37" target="_bVZ1d8dCjfE9aQv2Lmk-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203.5" y="695" as="sourcePoint" />
+            <mxPoint x="258.5" y="623" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="253.5" y="695" />
+              <mxPoint x="203.5" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-41" target="_bVZ1d8dCjfE9aQv2Lmk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-41" value="Assigned &lt;b&gt;VAR_FILE_OPTS&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="763" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-43" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;VAR_FILE_OPTS&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&quot;-var-file .env.&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="713" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-45" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203.5" y="794" as="sourcePoint" />
+            <mxPoint x="249" y="733" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="795" />
+              <mxPoint x="210" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-48" target="_bVZ1d8dCjfE9aQv2Lmk-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-48" value="Create Job variable file by python" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="873" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-50" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;python &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-m&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;yq&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-y&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-r&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&quot;.jobs.\&quot;&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;\&quot;&quot;&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.env.&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;./deployment/env/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="803" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-51" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="904" as="sourcePoint" />
+            <mxPoint x="251.5" y="843" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="262.5" y="905" />
+              <mxPoint x="212.5" y="855" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-52" target="_bVZ1d8dCjfE9aQv2Lmk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-52" value="Re-assign &lt;b&gt;VAR_FILE_OPS&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="983" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-54" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;VAR_FILE_OPTS&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$VAR_FILE_OPTS&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt; -var-file ./deployment/env/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&quot;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="953" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.5" y="1014" as="sourcePoint" />
+            <mxPoint x="248.5" y="933" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="1015" />
+              <mxPoint x="211" y="965" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-56" target="_bVZ1d8dCjfE9aQv2Lmk-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-56" value="Create &lt;b&gt;OUT &lt;/b&gt;variable" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-58" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;OUT&lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;deployment/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.nomad&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1070" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-59" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="206" y="1129" as="sourcePoint" />
+            <mxPoint x="252.5" y="1092" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="262.5" y="1130" />
+              <mxPoint x="212.5" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-60" target="_bVZ1d8dCjfE9aQv2Lmk-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-60" value="Levant render" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-62" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;levant &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;render&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-log-level=WARN&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-var-file&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;defaults/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_TYPE&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-var-file&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;jobs/&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$JOB_NAME&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;.yaml&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$VAR_FILE_OPTS&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-var&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;environment=&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$ENVIRONMENT&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-var&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;subenv=&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$SUB_ENV&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;-var&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;version=&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$VERSION&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;generic-job.levant&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$OUT&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="251" y="1150" width="560" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-63" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=0.005;entryY=0.36;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="204.5" y="1249" as="sourcePoint" />
+            <mxPoint x="248.5" y="1202" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="261" y="1250" />
+              <mxPoint x="211" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_bVZ1d8dCjfE9aQv2Lmk-64" target="_bVZ1d8dCjfE9aQv2Lmk-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-64" value="Levant &lt;b&gt;run &lt;/b&gt;or &lt;b&gt;plan&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="86" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-66" value="End" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="126" y="1430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-68" value="&lt;div style=&quot;color: rgb(209, 204, 241); background-color: rgb(47, 47, 47); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; [ &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;-z&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$PLAN&lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; ]; &lt;/span&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;then&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;&amp;nbsp; nomad &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;run&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$OUT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;else&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt;&amp;nbsp; nomad &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;job&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #5ac16c;&quot;&gt;plan&lt;/span&gt;&lt;span style=&quot;color: #d1ccf1;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ff9a3b;font-style: italic;&quot;&gt;$OUT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #dd5555;&quot;&gt;fi&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1260" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_bVZ1d8dCjfE9aQv2Lmk-69" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;entryX=-0.005;entryY=0.417;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_bVZ1d8dCjfE9aQv2Lmk-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203.5" y="1351" as="sourcePoint" />
+            <mxPoint x="253" y="1288" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="1352" />
+              <mxPoint x="210" y="1302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
