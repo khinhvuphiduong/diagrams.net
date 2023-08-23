@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T08:48:07.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="R_4-6JWGzWG0OdyVv9uZ" version="21.6.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-23T08:53:39.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0" etag="EmTgScsYzBJG1v0Pubq1" version="21.6.8" type="github" pages="5">
   <diagram id="59IeUEexwLYUwbE65X26" name="Overview">
     <mxGraphModel dx="3483" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -243,9 +243,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWjpbnkl323WCKxlLM7s-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static2-images.vnncdn.net/files/publish/2022/12/5/vietkiot3-1019.jpg;" vertex="1" parent="1">
-          <mxGeometry x="-1510" y="320" width="150" height="74.81" as="geometry" />
-        </mxCell>
         <mxCell id="hWjpbnkl323WCKxlLM7s-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="UC_KKJ6KkYK9fyrx-4mM-2" target="MEj9aiIZ0z-ci1yN_5Hu-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1460" y="400" as="sourcePoint" />
@@ -256,19 +253,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWjpbnkl323WCKxlLM7s-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;exitX=0.647;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JopXceaY-Xpgfh8ohXGw-7" target="hWjpbnkl323WCKxlLM7s-23">
+        <mxCell id="hWjpbnkl323WCKxlLM7s-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;exitX=0.647;exitY=-0.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.341;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JopXceaY-Xpgfh8ohXGw-7" target="hWjpbnkl323WCKxlLM7s-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1770" y="550" as="sourcePoint" />
-            <mxPoint x="-1720" y="500" as="targetPoint" />
+            <mxPoint x="-1485.250827353452" y="394.80999999999995" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1530" y="570" />
               <mxPoint x="-1640" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hWjpbnkl323WCKxlLM7s-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hWjpbnkl323WCKxlLM7s-23" target="GmZu7A8OiouFzRM4-oHW-7">
+        <mxCell id="hWjpbnkl323WCKxlLM7s-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;shape=connector;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="hWjpbnkl323WCKxlLM7s-38" target="GmZu7A8OiouFzRM4-oHW-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1410" y="470" as="sourcePoint" />
+            <mxPoint x="-1435" y="394.80999999999995" as="sourcePoint" />
             <mxPoint x="-1360" y="420" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-1370" y="411" />
@@ -296,6 +293,9 @@
         </mxCell>
         <mxCell id="hWjpbnkl323WCKxlLM7s-36" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;TỔNG QUAN HỆ THỐNG DEV MỚI KOL&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1690" y="40" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hWjpbnkl323WCKxlLM7s-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.haitrieu.com/wp-content/uploads/2022/10/Logo-KiotViet.png;" vertex="1" parent="1">
+          <mxGeometry x="-1505.87" y="320" width="125.87" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
