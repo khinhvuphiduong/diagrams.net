@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T07:31:24.209Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="g1X-6Qgk2qbnk8uB1Y-X" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T08:09:54.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="C2EPaIdAaVH6bIIprMY8" version="22.1.21" type="github">
   <diagram name="Dev Monitor Overview" id="SL2lBERJPsa4se48MM9Q">
     <mxGraphModel dx="1773" dy="2088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,13 +74,13 @@
           <mxGeometry x="200" y="155" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--42" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="168" width="110" height="220" as="geometry" />
+          <mxGeometry x="440" y="79" width="110" height="220" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--38" value="Logstash" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/free/png-256/free-logstash-3521553-2944971.png;container=0;" vertex="1" parent="1">
-          <mxGeometry x="462" y="194.78" width="66" height="66" as="geometry" />
+          <mxGeometry x="462" y="105.78" width="66" height="66" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--39" value="Kafka" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.sentinelone.com/wp-content/uploads/2019/07/19130737/Kafka_use_cases_indicated_by_Kafka_logo_with_Scalyr_colors.png;container=0;" vertex="1" parent="1">
-          <mxGeometry x="468.18000000000006" y="302.78" width="53.64" height="58.44" as="geometry" />
+          <mxGeometry x="468.18000000000006" y="213.77999999999997" width="53.64" height="58.44" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--38" target="CIiFM89K53W-IF8Lbi4--39">
           <mxGeometry relative="1" as="geometry" />
@@ -176,6 +176,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="CIiFM89K53W-IF8Lbi4--103" value="App metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CIiFM89K53W-IF8Lbi4--75">
+          <mxGeometry x="-0.5289" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--76" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--42" target="CIiFM89K53W-IF8Lbi4--31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="280" as="sourcePoint" />
@@ -224,6 +229,23 @@
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--96" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="CIiFM89K53W-IF8Lbi4--95">
           <mxGeometry x="0.0048" y="12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CIiFM89K53W-IF8Lbi4--99" value="Consul" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://global-uploads.webflow.com/6203daf47137054c031fa0e6/64071d4ee3e10617c9106129_consul.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="454.00000000000006" y="338" width="74" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="CIiFM89K53W-IF8Lbi4--100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--24" target="CIiFM89K53W-IF8Lbi4--99">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="530" as="sourcePoint" />
+            <mxPoint x="390" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CIiFM89K53W-IF8Lbi4--101" value="App metric" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CIiFM89K53W-IF8Lbi4--100">
+          <mxGeometry x="0.0908" y="18" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
