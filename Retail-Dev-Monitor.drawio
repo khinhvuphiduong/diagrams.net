@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-01T08:09:54.896Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="C2EPaIdAaVH6bIIprMY8" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-01T08:48:32.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="_wV4cf_fRAmkBFWwHTl0" version="22.1.21" type="github">
   <diagram name="Dev Monitor Overview" id="SL2lBERJPsa4se48MM9Q">
-    <mxGraphModel dx="1773" dy="2088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="2505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="CIiFM89K53W-IF8Lbi4--94" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="500" width="140" height="130" as="geometry" />
+          <mxGeometry x="60" y="530" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--91" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="-57" width="156" height="500" as="geometry" />
@@ -26,13 +26,13 @@
           <mxGeometry x="60" y="-80" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="65" width="160" height="210" as="geometry" />
+          <mxGeometry x="60" y="250" width="160" height="210" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--5" value="Retail App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/5871/5871423.png;" vertex="1" parent="1">
-          <mxGeometry x="110" y="70" width="60" height="60" as="geometry" />
+          <mxGeometry x="110" y="255" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--6" value="KOL App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/2415/2415292.png;" vertex="1" parent="1">
-          <mxGeometry x="110" y="180" width="50" height="50" as="geometry" />
+          <mxGeometry x="110" y="365" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--9" value="Linux Server" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;" vertex="1" parent="1">
           <mxGeometry x="75" y="-70" width="50" height="50" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="180" y="-70" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--25" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="60" y="330" width="199" height="119" as="geometry" />
+          <mxGeometry x="60" y="70" width="225" height="119" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CIiFM89K53W-IF8Lbi4--25">
           <mxGeometry width="199" height="119" as="geometry" />
@@ -64,6 +64,9 @@
         <mxCell id="CIiFM89K53W-IF8Lbi4--26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="CIiFM89K53W-IF8Lbi4--25">
           <mxGeometry x="110.00999999999999" y="7.75" width="63.61" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="CIiFM89K53W-IF8Lbi4--64" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="CIiFM89K53W-IF8Lbi4--25">
+          <mxGeometry x="180" y="69" width="45" height="45" as="geometry" />
+        </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--29" value="Customer Exporter" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1340/1340105.png;" vertex="1" parent="1">
           <mxGeometry x="110" y="-210" width="60" height="60" as="geometry" />
         </mxCell>
@@ -71,7 +74,7 @@
           <mxGeometry x="458.00000000000006" y="-51" width="74" height="74" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--52" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
-          <mxGeometry x="200" y="155" width="45" height="45" as="geometry" />
+          <mxGeometry x="200" y="340" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--42" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="79" width="110" height="220" as="geometry" />
@@ -91,7 +94,7 @@
             <mxPoint x="390" y="355.5987852647331" as="targetPoint" />
             <Array as="points">
               <mxPoint x="300" y="320" />
-              <mxPoint x="340" y="360" />
+              <mxPoint x="360" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,9 +102,6 @@
           <mxGeometry x="0.3384" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="CIiFM89K53W-IF8Lbi4--64" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
-          <mxGeometry x="240" y="367" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--68" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--12" target="CIiFM89K53W-IF8Lbi4--45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -118,19 +118,20 @@
             <mxPoint x="43" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIiFM89K53W-IF8Lbi4--71" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=-0.027;entryY=0.287;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--52" target="CIiFM89K53W-IF8Lbi4--42">
+        <mxCell id="CIiFM89K53W-IF8Lbi4--71" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--52" target="CIiFM89K53W-IF8Lbi4--42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="290" y="200" as="sourcePoint" />
             <mxPoint x="433.7284374999999" y="300" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="200" />
-              <mxPoint x="390" y="190" />
+              <mxPoint x="320" y="390" />
+              <mxPoint x="350" y="380" />
+              <mxPoint x="390" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--72" value="Log File" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="CIiFM89K53W-IF8Lbi4--71">
           <mxGeometry x="0.3482" y="-5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-27" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--31" target="CIiFM89K53W-IF8Lbi4--80">
@@ -172,7 +173,7 @@
             <mxPoint x="733.4499999999998" y="-459.99811387589875" as="targetPoint" />
             <Array as="points">
               <mxPoint x="360" y="-190" />
-              <mxPoint x="470" y="-213.47000000000003" />
+              <mxPoint x="470" y="-180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -215,7 +216,7 @@
           <mxGeometry x="1139" y="147" width="72" height="72" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--93" value="Client App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6470/6470993.png;" vertex="1" parent="1">
-          <mxGeometry x="88" y="510" width="80" height="80" as="geometry" />
+          <mxGeometry x="88" y="540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--95" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.996;exitY=0.602;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--94" target="CIiFM89K53W-IF8Lbi4--31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -232,15 +233,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIiFM89K53W-IF8Lbi4--99" value="Consul" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://global-uploads.webflow.com/6203daf47137054c031fa0e6/64071d4ee3e10617c9106129_consul.png;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="454.00000000000006" y="338" width="74" height="74" as="geometry" />
-        </mxCell>
-        <mxCell id="CIiFM89K53W-IF8Lbi4--100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--24" target="CIiFM89K53W-IF8Lbi4--99">
+        <mxCell id="CIiFM89K53W-IF8Lbi4--100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="CIiFM89K53W-IF8Lbi4--24" target="CIiFM89K53W-IF8Lbi4--45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="530" as="sourcePoint" />
-            <mxPoint x="390" y="480" as="targetPoint" />
+            <mxPoint x="454" y="400.72847682119163" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="340" y="480" />
+              <mxPoint x="330" y="100" />
             </Array>
           </mxGeometry>
         </mxCell>
