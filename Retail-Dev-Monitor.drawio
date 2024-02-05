@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T06:20:35.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="RbppsY7ViCBhjyKtuOLr" version="23.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-05T06:23:52.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="9gpWy1FLuHhS0pJyRSHn" version="23.1.0" type="github" pages="5">
   <diagram name="Dev Monitor Overview" id="SL2lBERJPsa4se48MM9Q">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -561,12 +561,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lKTD-Rh7a_7cvzfVXyJT" name="ElasticSearch Cluster">
-    <mxGraphModel dx="4844" dy="5901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3426" dy="5166" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TEezpX9tTBDJNudnTDkh-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1651" y="-4421" width="126" height="200" as="geometry" />
+          <mxGeometry x="-1651" y="-4421" width="111" height="200" as="geometry" />
         </mxCell>
         <mxCell id="GmQG7Q3h32O4tkUnN-yM-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2481" y="-4536" width="460" height="310" as="geometry" />
@@ -715,8 +715,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TEezpX9tTBDJNudnTDkh-3" value="Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEezpX9tTBDJNudnTDkh-2">
-          <mxGeometry x="0.1664" y="3" relative="1" as="geometry">
+        <mxCell id="TEezpX9tTBDJNudnTDkh-8" value="File log / Client log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TEezpX9tTBDJNudnTDkh-2">
+          <mxGeometry x="0.0875" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
