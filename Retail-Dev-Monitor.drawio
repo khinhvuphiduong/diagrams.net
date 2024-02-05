@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T08:00:19.824Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="8dqVntKCS3N8ObJOouGE" version="23.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-05T08:02:09.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="LqWoO-rAP-NrAjmHF4Ut" version="23.1.0" type="github" pages="6">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -752,12 +752,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="r0-fagqLmV97zwCR2f2T" name="Grafana - Prometheus - Alert Manager">
-    <mxGraphModel dx="4507" dy="5726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3459" dy="5183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="v4lOZcX4C6klOGt8C-7P-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2280" y="-4365" width="182" height="60" as="geometry" />
+          <mxGeometry x="-2280" y="-4365" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Rs2Z7_CZUEqt5k8EW3rJ-1" value="ElasticSearch" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elasticsearch.svg;container=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2380" y="-4355.92" width="41.84" height="41.84" as="geometry" />
@@ -796,7 +796,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PcMpr6HfFQkAMov4bwXz-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2121.2" y="-4371.84" width="30" height="30" as="geometry" />
+          <mxGeometry x="-2039.9999999999998" y="-4371.84" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PcMpr6HfFQkAMov4bwXz-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Rs2Z7_CZUEqt5k8EW3rJ-2" target="-a2IXapbTX_qBcTDs6NK-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -857,6 +857,9 @@
               <mxPoint x="-2170" y="-4440" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4iAKEENxSyO_mH8lBqF--1" value="Nginx" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2080.64" y="-4357.92" width="26.28" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
