@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T08:02:09.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="LqWoO-rAP-NrAjmHF4Ut" version="23.1.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-02-05T08:09:06.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="wYGojuKcEm1_GS-fJirY" version="23.1.0" type="github" pages="6">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -766,7 +766,7 @@
           <mxGeometry x="-2450" y="-4528.7" width="41.76" height="41.84" as="geometry" />
         </mxCell>
         <mxCell id="Rs2Z7_CZUEqt5k8EW3rJ-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png;" vertex="1" parent="1">
-          <mxGeometry x="-1880" y="-4560" width="42" height="42" as="geometry" />
+          <mxGeometry x="-2020" y="-4630" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="qV9bC-npw4Ymq91z8t1W-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="1">
           <mxGeometry x="-2227.8" y="-4521.5" width="77.6" height="61" as="geometry" />
@@ -785,14 +785,14 @@
             <mxPoint x="-2020" y="-4450" as="sourcePoint" />
             <mxPoint x="-1970" y="-4500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1970" y="-4450" />
+              <mxPoint x="-2150" y="-4600" />
               <mxPoint x="-2020" y="-4500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="v4lOZcX4C6klOGt8C-7P-13" value="Prometheus/Grafana/AlertManager" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v4lOZcX4C6klOGt8C-7P-12">
           <mxGeometry x="0.2973" y="-8" relative="1" as="geometry">
-            <mxPoint x="-15" y="-36" as="offset" />
+            <mxPoint x="-75" y="-71" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PcMpr6HfFQkAMov4bwXz-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
