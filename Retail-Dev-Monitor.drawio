@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T04:08:56.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="hhaXT-kfoEShNGc8Wy0Z" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-15T04:09:40.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="cltf2SiLmKeza4ta9rr9" version="23.1.1" type="github" pages="7">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -925,6 +925,11 @@
               <mxPoint x="-2050" y="-4470" />
               <mxPoint x="-2100" y="-4520" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DxJBT3mtfYebNAC-Cn00-3" value="Service Discovery" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PcMpr6HfFQkAMov4bwXz-5">
+          <mxGeometry x="0.2845" y="-6" relative="1" as="geometry">
+            <mxPoint x="23" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PcMpr6HfFQkAMov4bwXz-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" parent="1" source="Rs2Z7_CZUEqt5k8EW3rJ-4" target="qV9bC-npw4Ymq91z8t1W-1" edge="1">
