@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T01:54:49.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="jhqcnI2XGlDeemjNKOwD" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-15T01:55:11.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="BKKsd4qNKqBlemF8rYde" version="23.1.1" type="github" pages="7">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -306,6 +306,9 @@
         </mxCell>
         <mxCell id="UpTDF4oBfgNJMV3Yu8YC-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="210" y="-782.48" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UpTDF4oBfgNJMV3Yu8YC-8" value="Develop / Testing / Staging&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="98" y="-860" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
