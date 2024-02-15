@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T02:07:29.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="PtYGjIo64eYio2-PSnMS" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-15T02:07:50.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="jVeW1kF6n0qo3dMZBfIW" version="23.1.1" type="github" pages="7">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
             <mxPoint x="-27" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIiFM89K53W-IF8Lbi4--31" value="ElasticSearch" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elasticsearch.svg;container=0;" parent="1" vertex="1">
+        <mxCell id="CIiFM89K53W-IF8Lbi4--31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elasticsearch.svg;container=0;" parent="1" vertex="1">
           <mxGeometry x="761.9999999999999" y="-560" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--32" value="Prometheus" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/prometheus-icon-511x512-1vmxbcxr.png;container=0;" parent="1" vertex="1">
