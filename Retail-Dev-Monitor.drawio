@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T04:07:27.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="k0Yxfsr53ne0ZpMjr_cM" version="23.1.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-15T04:08:29.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="1_4YFUNkEAeM02n9Zw7_" version="23.1.1" type="github" pages="7">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -550,17 +550,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="piKP84OU9dyHX4SmB7t2" name="Nomad-Consul-Vault-Hosting">
-    <mxGraphModel dx="4149" dy="5541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3899" dy="5411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QkstUPE_ART-0vRU7G42-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QkstUPE_ART-0vRU7G42-2" target="QkstUPE_ART-0vRU7G42-11">
+        <mxCell id="QkstUPE_ART-0vRU7G42-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QkstUPE_ART-0vRU7G42-2" target="QkstUPE_ART-0vRU7G42-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2060" y="-4560" width="120" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="QkstUPE_ART-0vRU7G42-4" target="QkstUPE_ART-0vRU7G42-5">
+        <mxCell id="QkstUPE_ART-0vRU7G42-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="QkstUPE_ART-0vRU7G42-4" target="QkstUPE_ART-0vRU7G42-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-1999.9999999999998" y="-4450" />
@@ -568,19 +568,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-4" value="Nomad Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-4" value="Nomad Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2024.9999999999998" y="-4540" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-5" value="Consul Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://global-uploads.webflow.com/6203daf47137054c031fa0e6/64071d4ee3e10617c9106129_consul.png;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-5" value="Consul Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://global-uploads.webflow.com/6203daf47137054c031fa0e6/64071d4ee3e10617c9106129_consul.png;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2030.9999999999998" y="-4430" width="62" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-6" value="Vault Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/448679/vault.svg;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-6" value="Vault Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/448679/vault.svg;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2024.9999999999998" y="-4290" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-8" value="dc2d-retail-nginx-01.citigo.io" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-8" value="dc2d-retail-nginx-01.citigo.io" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png;" parent="1" vertex="1">
           <mxGeometry x="-2340" y="-4450" width="52.55" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QkstUPE_ART-0vRU7G42-8" target="kkM0npHTOfl96gy0o_A0-1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="QkstUPE_ART-0vRU7G42-8" target="kkM0npHTOfl96gy0o_A0-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2134.16" y="-4212" as="sourcePoint" />
             <mxPoint x="-2180" y="-4192" as="targetPoint" />
@@ -590,31 +590,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png;" parent="1" vertex="1">
           <mxGeometry x="-2470" y="-4540" width="72" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1879.4999999999998" y="-4430" width="200" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-12" value="Linux Server" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-12" value="Linux Server" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;" parent="1" vertex="1">
           <mxGeometry x="-1864.4999999999998" y="-4420" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-13" value="Windows Server" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;imageBackground=default;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-13" value="Windows Server" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;imageBackground=default;" parent="1" vertex="1">
           <mxGeometry x="-1759.4999999999998" y="-4420" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-14" value="&lt;div&gt;dc2d-kv-monitoring-nomad-01.citigo.io&lt;/div&gt;&lt;div&gt;dc2d-kv-monitoring-nomad-02.citigo.io&lt;/div&gt;&lt;div&gt;dc2d-kv-monitoring-nomad-03.citigo.io&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-14" value="&lt;div&gt;dc2d-kv-monitoring-nomad-01.citigo.io&lt;/div&gt;&lt;div&gt;dc2d-kv-monitoring-nomad-02.citigo.io&lt;/div&gt;&lt;div&gt;dc2d-kv-monitoring-nomad-03.citigo.io&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1889.4999999999998" y="-4470" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QkstUPE_ART-0vRU7G42-15" value="&lt;div&gt;https://nomad-dc2d-cluster.kvpos.com&lt;/div&gt;&lt;div&gt;https://consul-dc2d-cluster.kvpos.com&lt;/div&gt;&lt;div&gt;https://vault-dc2d-cluster.kvpos.com&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QkstUPE_ART-0vRU7G42-15" value="&lt;div&gt;https://nomad-dc2d-cluster.kvpos.com&lt;/div&gt;&lt;div&gt;https://consul-dc2d-cluster.kvpos.com&lt;/div&gt;&lt;div&gt;https://vault-dc2d-cluster.kvpos.com&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-2380" y="-4526" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kkM0npHTOfl96gy0o_A0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kkM0npHTOfl96gy0o_A0-1" target="QkstUPE_ART-0vRU7G42-2">
+        <mxCell id="kkM0npHTOfl96gy0o_A0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kkM0npHTOfl96gy0o_A0-1" target="QkstUPE_ART-0vRU7G42-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kkM0npHTOfl96gy0o_A0-1" value="dc2d-kv-monitoring-lb-01.citigo.io" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="1">
+        <mxCell id="kkM0npHTOfl96gy0o_A0-1" value="dc2d-kv-monitoring-lb-01.citigo.io" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" parent="1" vertex="1">
           <mxGeometry x="-2200" y="-4427.86" width="109.05" height="85.72" as="geometry" />
         </mxCell>
-        <mxCell id="kkM0npHTOfl96gy0o_A0-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QkstUPE_ART-0vRU7G42-10" target="QkstUPE_ART-0vRU7G42-8">
+        <mxCell id="kkM0npHTOfl96gy0o_A0-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="QkstUPE_ART-0vRU7G42-10" target="QkstUPE_ART-0vRU7G42-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-2420" y="-4390" as="sourcePoint" />
             <mxPoint x="-2370" y="-4440" as="targetPoint" />
@@ -949,6 +949,9 @@
         </mxCell>
         <mxCell id="4iAKEENxSyO_mH8lBqF--1" value="Nginx" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1901.6399999999999" y="-4323.92" width="26.28" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DxJBT3mtfYebNAC-Cn00-2" value="Develop / Testing / Staging" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2068.4700000000003" y="-4225" width="176.94" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
