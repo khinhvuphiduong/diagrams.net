@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T11:10:19.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="HYEBlf6s7zdiu22dHvIr" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-16T11:12:32.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="upuke4baAXXgTHuQ7u8L" version="23.1.4" type="github" pages="2">
   <diagram name="Icon" id="sEKLHw3KHgZP-xMYtxn7">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,7 +223,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JYngd7bbh6P80VLy5KBD-1" value="nomad-pack" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/hashicorp-packer.svg;" vertex="1" parent="1">
-          <mxGeometry x="600" y="585" width="31.67" height="47.5" as="geometry" />
+          <mxGeometry x="599.16" y="570" width="31.67" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="JYngd7bbh6P80VLy5KBD-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JYngd7bbh6P80VLy5KBD-1" target="BNTjuwmSLFMO9EC7m5dE-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -233,6 +233,26 @@
               <mxPoint x="510" y="580" />
               <mxPoint x="510" y="630" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYngd7bbh6P80VLy5KBD-3" value="Trigger Job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JYngd7bbh6P80VLy5KBD-2">
+          <mxGeometry x="0.3634" y="-7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYngd7bbh6P80VLy5KBD-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t2qnL-kVcl9zy56iPemt-3" target="JYngd7bbh6P80VLy5KBD-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="720" as="sourcePoint" />
+            <mxPoint x="770" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="520" />
+              <mxPoint x="640" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JYngd7bbh6P80VLy5KBD-5" value="Job Variable" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JYngd7bbh6P80VLy5KBD-4">
+          <mxGeometry x="0.0953" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
