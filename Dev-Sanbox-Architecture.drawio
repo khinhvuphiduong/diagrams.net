@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T09:39:50.054Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="sHiKKbKQrSxtvHva3wn8" version="23.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-02-16T09:41:31.674Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="yjP5hjYw5rr5m88wLZcA" version="23.1.4" type="github" pages="2">
   <diagram name="Icon" id="sEKLHw3KHgZP-xMYtxn7">
     <mxGraphModel dx="1668" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="Wm2tVNQGMtgxQfd7bk0R-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1127762-200.png;" vertex="1" parent="1">
           <mxGeometry x="474.53" y="-510" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KxAajOkyiUWuT_lDgjxY-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/hashicorp-packer.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-200" width="66.67" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
