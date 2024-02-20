@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T02:10:04.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="T365XmHA6sCfLsYa3JYF" version="23.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-02-20T02:11:02.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="jw8HLoOCrbfBtQnbj8X0" version="23.1.5" type="github" pages="7">
   <diagram id="6_ZWhZss1orvQra8jE02" name="Icon">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Dev Monitor Overview" id="SL2lBERJPsa4se48MM9Q">
-    <mxGraphModel dx="2853" dy="4557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3190" dy="4732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,14 +174,14 @@
             <mxPoint x="50" y="-2325.2799999999997" as="sourcePoint" />
             <mxPoint x="100" y="-2375.2799999999997" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="150" y="-2165.2799999999997" />
-              <mxPoint x="210" y="-2325.2799999999997" />
+              <mxPoint x="-90" y="-2200" />
+              <mxPoint x="250" y="-2310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CIiFM89K53W-IF8Lbi4--96" value="HTTP/HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="CIiFM89K53W-IF8Lbi4--95" vertex="1" connectable="0">
           <mxGeometry x="0.0048" y="12" relative="1" as="geometry">
-            <mxPoint x="-3" y="-17" as="offset" />
+            <mxPoint x="48" y="-26" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v8G3RGOsH9dI0RSC4sHl-4" value="Infra Application" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
@@ -292,14 +292,13 @@
             <mxPoint x="-210" y="-2765.2799999999997" as="sourcePoint" />
             <mxPoint x="-160" y="-2815.2799999999997" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-280" y="-3015.2799999999997" />
-              <mxPoint x="-210" y="-2815.2799999999997" />
+              <mxPoint x="-230" y="-3080" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KUKwCG4B-zPxyBzO1FUF-1" value="Exporter service Register" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PDngtsV5TsXUmmsL1xwn-57" vertex="1" connectable="0">
           <mxGeometry x="-0.2266" y="6" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="28" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KUKwCG4B-zPxyBzO1FUF-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="PDngtsV5TsXUmmsL1xwn-56" target="CIiFM89K53W-IF8Lbi4--38" edge="1">
@@ -308,14 +307,15 @@
             <mxPoint x="-210" y="-2565.2799999999997" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-360" y="-2655.2799999999997" />
-              <mxPoint x="-320" y="-2585.2799999999997" />
+              <mxPoint x="-310" y="-2600" />
               <mxPoint x="-230" y="-2585.2799999999997" />
+              <mxPoint x="-100" y="-2600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KUKwCG4B-zPxyBzO1FUF-3" value="Filebeat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KUKwCG4B-zPxyBzO1FUF-2" vertex="1" connectable="0">
           <mxGeometry x="0.3046" y="-7" relative="1" as="geometry">
-            <mxPoint x="-110" y="63" as="offset" />
+            <mxPoint x="-141" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KUKwCG4B-zPxyBzO1FUF-5" value="Filter&lt;br&gt;base meta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
