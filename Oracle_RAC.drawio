@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-25T15:37:48.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="BdWMUIw3XmTJmEUiTf67" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-25T15:44:26.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="cFXu3MuMESjEZ6cI3HGh" version="23.1.5" type="github">
   <diagram name="Page-1" id="A4Ai2_R7DW5ptEaBGcl3">
-    <mxGraphModel dx="2072" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1727" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,10 +74,10 @@
           <mxGeometry x="583.66" y="350" width="162.68" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-26" value="ol9-19-rac1.localdomain&lt;br&gt;ol9-19-rac1-vip.localdomain&lt;br&gt;ol9-19-rac1-priv.localdomain" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="5" y="220" width="155" height="40" as="geometry" />
+          <mxGeometry y="210" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-28" value="ol9-19-rac2.localdomain&lt;br&gt;ol9-19-rac2-vip.localdomain&lt;br&gt;ol9-19-rac2-priv.localdomain" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="695" y="220" width="155" height="40" as="geometry" />
+          <mxGeometry x="695" y="210" width="155" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-31" value="Public: 192.168.56.100" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="330" y="270" width="145" height="30" as="geometry" />
@@ -85,20 +85,20 @@
         <mxCell id="ImBMw09rkv26mxz3HkRQ-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="ImBMw09rkv26mxz3HkRQ-32" target="ImBMw09rkv26mxz3HkRQ-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ImBMw09rkv26mxz3HkRQ-32" value="SCAN_IP_1: 192.168.56.105&lt;br&gt;SCAN_IP_1: 192.168.56.106&lt;br&gt;SCAN_IP_1: 192.168.56.107" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="350.5" y="590" width="170" height="60" as="geometry" />
+        <mxCell id="ImBMw09rkv26mxz3HkRQ-32" value="SCAN_IP_1: 192.168.56.105&lt;br&gt;SCAN_IP_2: 192.168.56.106&lt;br&gt;SCAN_IP_3: 192.168.56.107" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="341.5" y="590" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="ImBMw09rkv26mxz3HkRQ-33" target="ImBMw09rkv26mxz3HkRQ-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-33" value="ol9-19-scan.localdomain" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="363" y="720" width="145" height="30" as="geometry" />
+          <mxGeometry x="354" y="720" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="ImBMw09rkv26mxz3HkRQ-35" target="ImBMw09rkv26mxz3HkRQ-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-35" value="Application Server" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;fontFamily=Helvetica;fontSize=11;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="385.5" y="810" width="100" height="70" as="geometry" />
+          <mxGeometry x="376.5" y="810" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ImBMw09rkv26mxz3HkRQ-36" value="" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ImBMw09rkv26mxz3HkRQ-4" target="ImBMw09rkv26mxz3HkRQ-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
