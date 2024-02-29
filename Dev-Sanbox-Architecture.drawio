@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T02:49:25.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="BDZVnz7AJp8Sb6RsDb20" version="23.1.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-29T02:52:29.731Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="THsouXwhMUlXbKqHvzq8" version="23.1.6" type="github" pages="5">
   <diagram name="Icon" id="sEKLHw3KHgZP-xMYtxn7">
     <mxGraphModel dx="1418" dy="1904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -649,7 +649,7 @@
         <mxCell id="wdBBweElH4i1sVKNmfCE-3" value="CPanel" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/4944/4944581.png;" vertex="1" parent="1">
           <mxGeometry x="148.36" y="75" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VSMuesDIoYm-5uQCsB8x-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png;" vertex="1" parent="1">
+        <mxCell id="VSMuesDIoYm-5uQCsB8x-1" value="Developer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.icon-icons.com/icons2/2468/PNG/512/user_icon_149329.png;" vertex="1" parent="1">
           <mxGeometry x="20" y="95" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZMr1nXyqGj0EyhfZjxkN-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://freesvg.org/img/server-linux.png;fontStyle=0" vertex="1" parent="1">
@@ -738,8 +738,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZMr1nXyqGj0EyhfZjxkN-26" value="&lt;h1&gt;Cpanel&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 170%; font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;Kiểm tra, vận hành hệ thống Infra&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Deploy các job nomad&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Đồng bộ key Consul&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="290" height="120" as="geometry" />
+        <mxCell id="ZMr1nXyqGj0EyhfZjxkN-26" value="&lt;h1&gt;Cpanel&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol style=&quot;line-height: 170%; font-size: 14px;&quot;&gt;&lt;li style=&quot;&quot;&gt;Kiểm tra, vận hành hệ thống Infra&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Lưu cấu hình thiết lập người dùng&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Deploy các job nomad&lt;/li&gt;&lt;li style=&quot;&quot;&gt;Đồng bộ key Consul&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="145" width="290" height="175" as="geometry" />
         </mxCell>
         <mxCell id="qDtdNnAR-ejtphF3dxZ1-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/439231/mongodb.svg;" vertex="1" parent="1">
           <mxGeometry x="200" y="190" width="35" height="35" as="geometry" />
@@ -752,6 +752,12 @@
               <mxPoint x="210" y="130" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qDtdNnAR-ejtphF3dxZ1-3" value="Windows Machine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="612.47" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qDtdNnAR-ejtphF3dxZ1-4" value="Linux Machine" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="612.47" y="102.47" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
