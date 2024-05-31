@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T08:13:14.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="jWc_JR7YQTwHx20SwZmW" version="24.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-31T08:13:34.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="OCpyTm7aJ5kS9HKi62e5" version="24.4.7" type="github" pages="2">
   <diagram name="Infrastructure" id="tSw_nZBupSeZd47YfLvn">
     <mxGraphModel dx="1233" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -515,16 +515,16 @@
           <mxGeometry x="10" y="116" width="240" height="44" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-11" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
-          <mxGeometry x="10" y="30" width="210" height="50" as="geometry" />
+          <mxGeometry x="25" y="30.5" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(30% 7% 29.67% 6%);" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
-          <mxGeometry x="10" y="37" width="70" height="32.452107279693486" as="geometry" />
+          <mxGeometry x="25" y="39.27" width="70" height="32.452107279693486" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(30% 7% 29.67% 6%);" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
-          <mxGeometry x="80" y="37" width="70" height="32.452107279693486" as="geometry" />
+          <mxGeometry x="95" y="39.27" width="70" height="32.452107279693486" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(30% 7% 29.67% 6%);" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
-          <mxGeometry x="150" y="37" width="70" height="32.452107279693486" as="geometry" />
+          <mxGeometry x="165" y="39.27" width="70" height="32.452107279693486" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(30% 7% 29.67% 6%);" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
           <mxGeometry x="10" y="124" width="70" height="32.452107279693486" as="geometry" />
@@ -536,7 +536,7 @@
           <mxGeometry x="180" y="124" width="70" height="32.452107279693486" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-12" value="Group: Swarm Manager" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
-          <mxGeometry x="42.5" y="80" width="145" height="30" as="geometry" />
+          <mxGeometry x="57.5" y="80.5" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9WNQ_TYWTs4sEErRZD0r-14" value="Group: Swarm Worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="9WNQ_TYWTs4sEErRZD0r-97">
           <mxGeometry x="42.5" y="160" width="145" height="30" as="geometry" />
