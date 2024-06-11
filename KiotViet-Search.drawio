@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T08:11:25.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="bPbN66t8m_62U3AXk6jp" version="24.4.14" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-11T08:26:15.358Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="Sl_5v2-wI9t8VmkBKque" version="24.4.14" type="github" pages="2">
   <diagram name="Infrastructure" id="tSw_nZBupSeZd47YfLvn">
     <mxGraphModel dx="1668" dy="2030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -429,6 +429,36 @@
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png;" vertex="1" parent="1">
           <mxGeometry x="10" y="-590.23" width="108.45" height="90.23" as="geometry" />
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-5" value="" style="endArrow=none;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="-440" as="sourcePoint" />
+            <mxPoint x="160" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-6" value="Init data từ QLKV" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="153" y="-455" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-8" value="CURD từ API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="-416" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-9" value="" style="curved=0;endArrow=none;html=1;rounded=0;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="-400" as="sourcePoint" />
+            <mxPoint x="160" y="-400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-12" value="" style="endArrow=none;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=4;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="38" y="-355" as="sourcePoint" />
+            <mxPoint x="158" y="-355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RZtxnzY7pTyppZoMO2vo-13" value="User tìm kiếm sản phẩm" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="155" y="-370" width="165" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
