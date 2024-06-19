@@ -1,41 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2024-06-14T10:26:12.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="ls-lxRHo7QilAcHPeF5O" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-19T23:21:15.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 OPR/110.0.0.0" etag="Vqxs4U2AMCTIlMjNndMo" version="23.1.6" type="github">
   <diagram name="Mongo-Kafka-Connect" id="pW1QRrTwxf4rfVVLLW0t">
-    <mxGraphModel dx="1418" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1505" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-9" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="254" y="165" width="320" height="130" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-17" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-488" y="250" width="300" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-1" value="Kafka 1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
-          <mxGeometry x="294" y="200" width="30" height="60" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="30" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-2" value="Kafka 2" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
-          <mxGeometry x="398" y="200" width="30" height="60" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-6" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="30" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-3" value="kafka 3" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" vertex="1" parent="1">
-          <mxGeometry x="504" y="200" width="30" height="60" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp9ODg8BCRlP848-DAIP-9" target="Dp9ODg8BCRlP848-DAIP-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-4" value="Mongodb 01" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="1">
-          <mxGeometry x="65" y="230" width="30" height="30" as="geometry" />
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-9" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-497" y="30" width="320" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-5" value="Source" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="200" width="60" height="30" as="geometry" />
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-1" value="Kafka 1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
+          <mxGeometry x="-457" y="65" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="710" y="200" width="60" height="60" as="geometry" />
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-2" value="Kafka 2" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
+          <mxGeometry x="-353" y="65" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-6" value="Mongodb 02" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" vertex="1" parent="Dp9ODg8BCRlP848-DAIP-8">
-          <mxGeometry x="15" y="30" width="30" height="30" as="geometry" />
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-3" value="kafka 3" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
+          <mxGeometry x="-247" y="65" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-7" value="Sink" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Dp9ODg8BCRlP848-DAIP-8">
-          <mxGeometry width="60" height="30" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dp9ODg8BCRlP848-DAIP-4" target="Dp9ODg8BCRlP848-DAIP-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1866352-200.png;" vertex="1" parent="1">
-          <mxGeometry x="194" y="200" width="60" height="60" as="geometry" />
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-4" value="Mongodb" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;" parent="1" vertex="1">
+          <mxGeometry x="-807" y="80" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Dp9ODg8BCRlP848-DAIP-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1866352-200.png;" vertex="1" parent="1">
-          <mxGeometry x="574" y="200" width="60" height="60" as="geometry" />
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dp9ODg8BCRlP848-DAIP-10" target="Dp9ODg8BCRlP848-DAIP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-10" value="Mongo Kafka Connector" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1866352-200.png;" parent="1" vertex="1">
+          <mxGeometry x="-667" y="65" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-11" value="Mongo Kafka Connector" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1866352-200.png;" parent="1" vertex="1">
+          <mxGeometry x="-87" y="65" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp9ODg8BCRlP848-DAIP-6" value="Mongodb" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;container=0;" parent="1" vertex="1">
+          <mxGeometry x="83" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Dp9ODg8BCRlP848-DAIP-11" target="Dp9ODg8BCRlP848-DAIP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaxRGp-r1MNsmeDYM1uu-8" target="qaxRGp-r1MNsmeDYM1uu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-8" value="Prometheus" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/prometheus-icon-511x512-1vmxbcxr.png;" vertex="1" parent="1">
+          <mxGeometry x="-468" y="270" width="39.92" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qaxRGp-r1MNsmeDYM1uu-9" target="qaxRGp-r1MNsmeDYM1uu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-9" value="Grafaba" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Grafana_icon.svg/1969px-Grafana_icon.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-358" y="270" width="38.47" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-10" value="Slack" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Slack_icon_2019.svg/2048px-Slack_icon_2019.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-248" y="270" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-18" value="SOURCE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-737" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-19" value="SINK" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-32" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-20" value="KAFKA CLUSTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-395.5" y="160" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-21" value="MONITOR" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-367" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-23" value="" style="curved=1;endArrow=none;html=1;rounded=0;entryX=0.46;entryY=-0.172;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;endFill=0;dashed=1;" edge="1" parent="1" source="Dp9ODg8BCRlP848-DAIP-9" target="qaxRGp-r1MNsmeDYM1uu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-647" y="280" as="sourcePoint" />
+            <mxPoint x="-597" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-477" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qaxRGp-r1MNsmeDYM1uu-24" value="JMX Exporter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qaxRGp-r1MNsmeDYM1uu-23">
+          <mxGeometry x="-0.3078" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
