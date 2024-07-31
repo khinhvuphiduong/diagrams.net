@@ -263,6 +263,14 @@
         <mxCell id="cVPNAnJw2LZi9rcYpagc-11" value="Kafka Connect Sink" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="1">
           <mxGeometry x="-1829.63" y="-1550.4" width="57.1" height="57.1" as="geometry" />
         </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-12" target="cVPNAnJw2LZi9rcYpagc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-31" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-30">
+          <mxGeometry x="-0.0332" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-12" value="Kafka Connect Source" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="1">
           <mxGeometry x="-2150" y="-1548.85" width="54" height="54" as="geometry" />
         </mxCell>
@@ -271,7 +279,7 @@
             <mxPoint x="-2260" y="-1521.85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-25" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-17">
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-25" value="9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-17">
           <mxGeometry x="-0.0311" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
