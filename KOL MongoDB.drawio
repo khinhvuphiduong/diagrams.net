@@ -207,9 +207,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;imageBackground=default;" vertex="1" parent="1">
-          <mxGeometry x="-2000" y="-1123.9" width="47.95" height="47.95" as="geometry" />
-        </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-5" target="cVPNAnJw2LZi9rcYpagc-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -260,9 +257,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="1">
-          <mxGeometry x="-1671.63" y="-1334.28" width="48.55" height="48.55" as="geometry" />
-        </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=1;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-12" target="cVPNAnJw2LZi9rcYpagc-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -270,9 +264,6 @@
           <mxGeometry x="-0.0332" y="2" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;spacingBottom=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="-1980" y="-1332" width="44" height="44" as="geometry" />
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-12" target="cVPNAnJw2LZi9rcYpagc-7">
           <mxGeometry relative="1" as="geometry">
@@ -286,15 +277,6 @@
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-26" value="scheduler" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/4904375-200.png;rotation=60;fontSize=10;strokeWidth=12;" vertex="1" parent="1">
           <mxGeometry x="-1830" y="-1350.0000000000002" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-33" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Sink&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2003" y="-1360" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-34" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Source&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2026.0299999999997" y="-1083" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-35" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Source&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1697.3599999999997" y="-1360" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-43" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-2320" y="-1260" width="130" height="110" as="geometry" />
@@ -325,6 +307,33 @@
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-41" value="Source" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-43">
           <mxGeometry x="40.15923566878981" y="80" width="49.681528662420384" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-45" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2003" y="-1360" width="90" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;spacingBottom=0;horizontal=1;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-45">
+          <mxGeometry x="23" y="28" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-33" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Sink&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-45">
+          <mxGeometry width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-46" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1697.3599999999997" y="-1360" width="100" height="74.26999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-46">
+          <mxGeometry x="25.729999999999563" y="25.720000000000027" width="48.55" height="48.55" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-35" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Source&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-46">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-47" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2026.0299999999997" y="-1123.9" width="100" height="74.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;imageBackground=default;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-47">
+          <mxGeometry x="26.029999999999745" width="47.95" height="47.95" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-34" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Connector Source&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="cVPNAnJw2LZi9rcYpagc-47">
+          <mxGeometry y="44.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
