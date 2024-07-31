@@ -215,7 +215,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-5" value="Kafka Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/486274/data-accesskafka-cluster.svg;" vertex="1" parent="1">
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-5" value="Kafka Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/486274/data-accesskafka-cluster.svg;imageBackground=default;" vertex="1" parent="1">
           <mxGeometry x="-1830" y="-1123.9" width="49" height="49" as="geometry" />
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-6" target="cVPNAnJw2LZi9rcYpagc-11">
