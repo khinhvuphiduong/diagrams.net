@@ -245,7 +245,7 @@
         <mxCell id="cVPNAnJw2LZi9rcYpagc-6" value="App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png;" vertex="1" parent="1">
           <mxGeometry x="-1830.0000000000002" y="-1336.0000000000002" width="46.15" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="cVPNAnJw2LZi9rcYpagc-7" value="rep_5.0" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-7" value="rep_new_5.0" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-2130" y="-1330" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cVPNAnJw2LZi9rcYpagc-16" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-11" target="cVPNAnJw2LZi9rcYpagc-5">
