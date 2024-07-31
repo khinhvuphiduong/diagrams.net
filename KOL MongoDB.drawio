@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.6">
-  <diagram name="Page-1" id="ix5Zt33PAQwgsV7Q0Ln3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.6" pages="2">
+  <diagram name="Copy Data Plan" id="ix5Zt33PAQwgsV7Q0Ln3">
     <mxGraphModel dx="3962" dy="2485" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -173,6 +173,105 @@
         </mxCell>
         <mxCell id="bPqM1AxZNPVaJdWIuvIf-175" value="5.0.26" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="-1680" y="-540" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7tplYjI1xa2lFtp2ZhB" name="Copy Data Flow">
+    <mxGraphModel dx="3541" dy="3097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-8" value="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-1" target="cVPNAnJw2LZi9rcYpagc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-1" value="kvfb_master" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2234" y="-1562" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-2" target="cVPNAnJw2LZi9rcYpagc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-22" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-15">
+          <mxGeometry x="-0.0775" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-2" value="rep_fb2" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1753" y="-1538.9" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-3" target="cVPNAnJw2LZi9rcYpagc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-19" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-9">
+          <mxGeometry x="0.0506" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-3" value="Kafka Connect Sink" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;imageBackground=default;" vertex="1" parent="1">
+          <mxGeometry x="-2242.55" y="-1382" width="57.1" height="57.1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-5" target="cVPNAnJw2LZi9rcYpagc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-20" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-10">
+          <mxGeometry x="-0.0227" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-5" value="Kafka Cluster" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.svgrepo.com/show/486274/data-accesskafka-cluster.svg;" vertex="1" parent="1">
+          <mxGeometry x="-2079.85" y="-1377.95" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-6" target="cVPNAnJw2LZi9rcYpagc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-21" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-13">
+          <mxGeometry x="-0.0457" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-18" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-6" target="cVPNAnJw2LZi9rcYpagc-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2054" y="-1643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-24" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-18">
+          <mxGeometry x="-0.5423" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-6" value="App" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png;" vertex="1" parent="1">
+          <mxGeometry x="-2077" y="-1544.9" width="46.15" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-7" value="rep_5.0" style="verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.storage;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1754" y="-1663" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-16" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-11" target="cVPNAnJw2LZi9rcYpagc-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1881" y="-1353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-23" value="5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-16">
+          <mxGeometry x="-0.5175" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-11" value="Kafka Connect Sink" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="1">
+          <mxGeometry x="-1909.48" y="-1550" width="57.1" height="57.1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-12" value="Kafka Connect Source" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.freeiconspng.com/uploads/services-icon-2.png;" vertex="1" parent="1">
+          <mxGeometry x="-1907.93" y="-1670" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cVPNAnJw2LZi9rcYpagc-12" target="cVPNAnJw2LZi9rcYpagc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cVPNAnJw2LZi9rcYpagc-25" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="cVPNAnJw2LZi9rcYpagc-17">
+          <mxGeometry x="-0.0311" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
