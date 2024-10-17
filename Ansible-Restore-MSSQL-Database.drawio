@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1412" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="572" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -87,6 +87,48 @@
         </mxCell>
         <mxCell id="m39n_J0WirBlMpD76ttp-49" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;copy complted&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="60" y="1060" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-53" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;dbatool_download_url&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="170" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-54" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;proget_api_key&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="210" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-57" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="100" as="sourcePoint" />
+            <mxPoint x="560" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="100" />
+              <mxPoint x="510" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-58" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m39n_J0WirBlMpD76ttp-32" target="m39n_J0WirBlMpD76ttp-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="sourcePoint" />
+            <mxPoint x="280" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="190" />
+              <mxPoint x="230" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-59" value="" style="curved=1;endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="m39n_J0WirBlMpD76ttp-32" target="m39n_J0WirBlMpD76ttp-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="230" as="sourcePoint" />
+            <mxPoint x="360" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+              <mxPoint x="310" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-60" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;dbatool_download_url&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="300" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m39n_J0WirBlMpD76ttp-61" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;proget_api_key&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="340" width="130" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
