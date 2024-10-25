@@ -129,7 +129,7 @@
         <mxCell id="uzaMz66EhPlOru-ss-v8-39" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/2133/2133120.png;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-200" y="80.00000000000006" width="84.17" height="84.17" as="geometry" />
         </mxCell>
-        <mxCell id="uzaMz66EhPlOru-ss-v8-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="uzaMz66EhPlOru-ss-v8-32" target="uzaMz66EhPlOru-ss-v8-39">
+        <mxCell id="uzaMz66EhPlOru-ss-v8-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;sketch=1;curveFitting=1;jiggle=2;flowAnimation=0;" edge="1" parent="1" source="uzaMz66EhPlOru-ss-v8-32" target="uzaMz66EhPlOru-ss-v8-39">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-320" y="150" />
