@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.3" pages="2">
   <diagram name="Infrastructure" id="tSw_nZBupSeZd47YfLvn">
-    <mxGraphModel dx="1486" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1765" dy="2089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2Rco2yREbGb82YImQav0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="-610" width="294" height="110" as="geometry" />
+        <mxCell id="2Rco2yREbGb82YImQav0-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-660" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="-1060" width="1000" height="560" as="geometry" />
+          <mxGeometry x="70" y="-1060" width="940" height="520" as="geometry" />
         </mxCell>
         <mxCell id="KHzdXOkS118kzX2NRqfI-4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=7;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-1015" width="470" height="340" as="geometry" />
+          <mxGeometry x="90" y="-1015" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="8OtFmosBrlprI2sc53SW-31" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="110" y="-995" width="180" height="90" as="geometry" />
@@ -203,7 +203,7 @@
           <mxGeometry x="132.92999999999995" y="25" width="23" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Txqnq7B-p5NhJyi0DV6z-46" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="180" y="-645" width="170" height="90" as="geometry" />
+          <mxGeometry x="210" y="-640" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Txqnq7B-p5NhJyi0DV6z-47" value="Monitor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="Txqnq7B-p5NhJyi0DV6z-46" vertex="1">
           <mxGeometry x="43.6" y="60" width="82.79" height="30" as="geometry" />
@@ -242,22 +242,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KHzdXOkS118kzX2NRqfI-8" value="User / Application" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/prejudice/user-128.png;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1219" y="-717" width="42" height="42" as="geometry" />
+          <mxGeometry x="1221" y="-790" width="42" height="42" as="geometry" />
         </mxCell>
         <mxCell id="km6JIBvCDGAu3UTQly0Q-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/elasticsearch-icon-1839x2048-s0i8mk51.png;" parent="1" vertex="1">
           <mxGeometry x="460" y="-1010" width="35.94" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-2" value="QLKV" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/4269/4269480.png;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1220" y="-926" width="40" height="40" as="geometry" />
+          <mxGeometry x="1221" y="-960" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-4" value="API" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/4269/4269480.png;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1215" y="-806" width="40" height="40" as="geometry" />
+          <mxGeometry x="1219" y="-860" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-5" value="Crontab Service" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/cronjob-icon-256x256-vjv1rud6.png;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="850" y="-980" width="45" height="45" as="geometry" />
+          <mxGeometry x="870" y="-975.5" width="45" height="45" as="geometry" />
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-6" value="TODO" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/124/124837.png;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="940" y="-971" width="36" height="36" as="geometry" />
+          <mxGeometry x="960" y="-920" width="36" height="36" as="geometry" />
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-8" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" parent="1" source="KHzdXOkS118kzX2NRqfI-2" target="ENAhx03LsKg27Tk2QiRz-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -287,7 +287,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ENAhx03LsKg27Tk2QiRz-15" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;exitX=0.653;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Txqnq7B-p5NhJyi0DV6z-39" target="ENAhx03LsKg27Tk2QiRz-6" edge="1">
+        <mxCell id="ENAhx03LsKg27Tk2QiRz-15" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;exitX=0.653;exitY=0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="Txqnq7B-p5NhJyi0DV6z-39" target="ENAhx03LsKg27Tk2QiRz-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="955" y="-855" as="sourcePoint" />
             <mxPoint x="1030" y="-959" as="targetPoint" />
@@ -395,9 +395,7 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1044" y="-660" as="sourcePoint" />
             <mxPoint x="1201" y="-605" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1140" y="-620" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ENAhx03LsKg27Tk2QiRz-35" value="3.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ENAhx03LsKg27Tk2QiRz-34" vertex="1" connectable="0">
@@ -418,37 +416,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://raw.githubusercontent.com/docker-library/docs/471fa6e4cb58062ccbf91afc111980f9c7004981/swarm/logo.png;" parent="1" vertex="1">
-          <mxGeometry x="1.5500000000000007" y="-580" width="108.45" height="90.23" as="geometry" />
+          <mxGeometry x="50" y="-610" width="108.45" height="90.23" as="geometry" />
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-5" value="" style="endArrow=none;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1064" y="-580" as="sourcePoint" />
-            <mxPoint x="1184" y="-580" as="targetPoint" />
+            <mxPoint x="1044.5" y="-630.37" as="sourcePoint" />
+            <mxPoint x="1100.5" y="-630.37" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-6" value="Init data từ QLKV" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1199" y="-595" width="125" height="30" as="geometry" />
+          <mxGeometry x="1116" y="-645" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-8" value="CURD từ API" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1189" y="-565" width="125" height="30" as="geometry" />
+          <mxGeometry x="1116" y="-614" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-9" value="" style="curved=0;endArrow=none;html=1;rounded=0;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1059" y="-550" as="sourcePoint" />
-            <mxPoint x="1179" y="-550" as="targetPoint" />
+            <mxPoint x="1043" y="-600.37" as="sourcePoint" />
+            <mxPoint x="1102" y="-600.37" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1179" y="-550" />
+              <mxPoint x="1043" y="-600.37" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-12" value="" style="endArrow=none;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1060.5" y="-520" as="sourcePoint" />
-            <mxPoint x="1180.5" y="-520" as="targetPoint" />
+            <mxPoint x="1042.75" y="-570.37" as="sourcePoint" />
+            <mxPoint x="1102.25" y="-570.37" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RZtxnzY7pTyppZoMO2vo-13" value="User tìm kiếm sản phẩm" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1192.5" y="-535" width="165" height="30" as="geometry" />
+          <mxGeometry x="1116" y="-584" width="165" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
