@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="26.0.4" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="26.0.4" pages="4">
   <diagram id="08CyBi1UuzQfOJjXgNbn" name="logstash-tcp">
-    <mxGraphModel dx="988" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1193" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="323" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-5" value="logstash-beats-metrics:9600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-5" value="logstash-beats-metrics:9600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="323" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-8" target="5LicTWkmSv9qG4vlaY2P-9">
@@ -25,7 +25,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-8" value=":5603" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="361.67" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-9" value="logstash-beats-logs-retail:5063" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-9" value="logstash-beats-logs-retail:5063" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="361.67" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-11" target="5LicTWkmSv9qG4vlaY2P-12">
@@ -34,7 +34,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-11" value=":5066" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="400.00000000000006" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-12" value="logstash-beats-logs-kol:5066" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-12" value="logstash-beats-logs-kol:5066" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="400" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-14" target="5LicTWkmSv9qG4vlaY2P-15">
@@ -43,7 +43,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="436.00000000000006" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-15" value="logstash-beats-logs-kiotqr:5068" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-15" value="logstash-beats-logs-kiotqr:5068" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="436" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-17" target="5LicTWkmSv9qG4vlaY2P-18">
@@ -52,7 +52,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-17" value=":5010" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="471.00000000000006" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-18" value="logstash-beats-logs-infra-haproxy-retail:5010" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-18" value="logstash-beats-logs-infra-haproxy-retail:5010" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="471" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-20" target="5LicTWkmSv9qG4vlaY2P-21">
@@ -61,7 +61,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-20" value=":5011" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="510" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-21" value="logstash-beats-logs-mon-haproxy-retail:5011" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-21" value="logstash-beats-logs-mon-haproxy-retail:5011" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="510" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-23" target="5LicTWkmSv9qG4vlaY2P-24">
@@ -70,7 +70,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-23" value=":5013" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="547" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-24" value="logstash-beats-logs-infra-haproxy-kol:5013" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-24" value="logstash-beats-logs-infra-haproxy-kol:5013" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="547" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-26" target="5LicTWkmSv9qG4vlaY2P-27" parent="1">
@@ -79,7 +79,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-26" value=":5015" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="586" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-27" value="logstash-beats-logs-infra-haproxy-kiotqr:5015" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-27" value="logstash-beats-logs-infra-haproxy-kiotqr:5015" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="586" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-29" target="5LicTWkmSv9qG4vlaY2P-30" parent="1">
@@ -88,7 +88,7 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-29" value=":5500" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="658" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-30" value="logstash-beats-logs-infra:5500" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-30" value="logstash-beats-logs-infra:5500" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="658" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-32" target="5LicTWkmSv9qG4vlaY2P-33" parent="1">
@@ -97,43 +97,43 @@
         <mxCell id="5LicTWkmSv9qG4vlaY2P-32" value=":5510" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="695" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-33" value="logstash-beats-logs-kol-infra:5510" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-33" value="logstash-beats-logs-kol-infra:5510" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="695" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-34" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-35" target="5LicTWkmSv9qG4vlaY2P-36" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-35" value=":5512" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="733" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-36" value="logstash-beats-logs-kiotqr-infra:5512" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-36" value="logstash-beats-logs-kiotqr-infra:5512" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="733" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-38" target="5LicTWkmSv9qG4vlaY2P-39" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-38" value=":5501" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="772" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-39" value="logstash-beats-logs-infra-winlogbeat:5501" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-39" value="logstash-beats-logs-infra-winlogbeat:5501" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="772" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-41" target="5LicTWkmSv9qG4vlaY2P-42" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-41" value=":5600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="809" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-42" value="logstash-beats-logs-infra-mssql:5600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-42" value="logstash-beats-logs-infra-mssql:5600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="809" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="5LicTWkmSv9qG4vlaY2P-43" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-44" target="5LicTWkmSv9qG4vlaY2P-45" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-44" value=":5700" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="844" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="5LicTWkmSv9qG4vlaY2P-45" value="logstash-beats-logs-infra-mongodb:5700" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-45" value="logstash-beats-logs-infra-mongodb:5700" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="844" width="290" height="24" as="geometry" />
         </mxCell>
         <mxCell id="30soUJkwOVNCC1a7uyuy-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1">
@@ -145,7 +145,7 @@
         <mxCell id="30soUJkwOVNCC1a7uyuy-2" value=":5016" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="220" y="620" width="120" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="30soUJkwOVNCC1a7uyuy-3" value="logstash-tcp-beats-logs-infra-forward:5016" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="30soUJkwOVNCC1a7uyuy-3" value="logstash-tcp-beats-logs-infra-forward:5016" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;align=left;spacingTop=0;spacingLeft=10;" vertex="1" parent="1">
           <mxGeometry x="410" y="620" width="290" height="24" as="geometry" />
         </mxCell>
       </root>
@@ -197,6 +197,14 @@
         <mxCell id="QYdxPZTiIY48W7mmqleH-3" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
           <mxGeometry x="380" y="486.25" width="37.5" height="37.5" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EDzzLK5ixL3eopQ-65Hy" name="Page-4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
