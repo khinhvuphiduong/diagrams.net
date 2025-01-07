@@ -1,9 +1,202 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="25.0.3">
-  <diagram name="Page-1" id="rj08yJ55F8fFu88pM_NV">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 OPR/115.0.0.0" version="26.0.4" pages="3">
+  <diagram id="08CyBi1UuzQfOJjXgNbn" name="logstash-tcp">
+    <mxGraphModel dx="988" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="241.83" y="229.99999999999997" width="76.34" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-3" value="logstash-tcp-beats" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://plmlab.math.cnrs.fr/uploads/-/system/project/avatar/1748/nomad.png;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="535" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-4" target="5LicTWkmSv9qG4vlaY2P-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="323" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-5" value="logstash-beats-metrics:9600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="323" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-8" target="5LicTWkmSv9qG4vlaY2P-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-8" value=":5603" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="361.67" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-9" value="logstash-beats-logs-retail:5063" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="361.67" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-11" target="5LicTWkmSv9qG4vlaY2P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-11" value=":5066" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="400.00000000000006" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-12" value="logstash-beats-logs-kol:5066" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-14" target="5LicTWkmSv9qG4vlaY2P-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="436.00000000000006" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-15" value="logstash-beats-logs-kiotqr:5068" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="436" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-16" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-17" target="5LicTWkmSv9qG4vlaY2P-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-17" value=":5010" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="471.00000000000006" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-18" value="logstash-beats-logs-infra-haproxy-retail:5010" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="471" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-19" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-20" target="5LicTWkmSv9qG4vlaY2P-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-20" value=":5011" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="510" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-21" value="logstash-beats-logs-mon-haproxy-retail:5011" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="510" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1" source="5LicTWkmSv9qG4vlaY2P-23" target="5LicTWkmSv9qG4vlaY2P-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-23" value=":5013" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="547" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-24" value="logstash-beats-logs-infra-haproxy-kol:5013" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="547" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-25" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-26" target="5LicTWkmSv9qG4vlaY2P-27" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-26" value=":5015" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="586" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-27" value="logstash-beats-logs-infra-haproxy-kiotqr:5015" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="586" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-28" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-29" target="5LicTWkmSv9qG4vlaY2P-30" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="658" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-30" value="logstash-beats-logs-infra:5500" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="658" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-31" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-32" target="5LicTWkmSv9qG4vlaY2P-33" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="695" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-33" value="logstash-beats-logs-kol-infra:5510" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="695" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-34" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-35" target="5LicTWkmSv9qG4vlaY2P-36" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="733" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-36" value="logstash-beats-logs-kiotqr-infra:5512" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="733" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-37" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-38" target="5LicTWkmSv9qG4vlaY2P-39" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="772" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-39" value="logstash-beats-logs-infra-winlogbeat:5501" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="772" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-40" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-41" target="5LicTWkmSv9qG4vlaY2P-42" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="809" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-42" value="logstash-beats-logs-infra-mssql:5600" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="809" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-43" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" source="5LicTWkmSv9qG4vlaY2P-44" target="5LicTWkmSv9qG4vlaY2P-45" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-44" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="844" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="5LicTWkmSv9qG4vlaY2P-45" value="logstash-beats-logs-infra-mongodb:5700" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="844" width="290" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="30soUJkwOVNCC1a7uyuy-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="631.5" as="sourcePoint" />
+            <mxPoint x="410" y="631.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30soUJkwOVNCC1a7uyuy-2" value=":5016" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="30soUJkwOVNCC1a7uyuy-3" value="logstash-tcp-beats-logs-infra-forward:5016" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="620" width="290" height="24" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Page-1" id="rj08yJ55F8fFu88pM_NV">
+    <mxGraphModel dx="1432" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Vxem-ctSl_MPNXlK7tK-7" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;" edge="1" parent="1" source="ZTyPD5bN8ecJF0UYlHMf-1" target="ZTyPD5bN8ecJF0UYlHMf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTyPD5bN8ecJF0UYlHMf-1" value="Infra-Retail" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTyPD5bN8ecJF0UYlHMf-4" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="37.5" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTyPD5bN8ecJF0UYlHMf-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="1">
+          <mxGeometry x="361" y="320" width="63.61" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Vxem-ctSl_MPNXlK7tK-1" value="Infra-KOL" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/969/969438.png;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Vxem-ctSl_MPNXlK7tK-2" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="400" width="37.5" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0Vxem-ctSl_MPNXlK7tK-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Vxem-ctSl_MPNXlK7tK-1" target="0Vxem-ctSl_MPNXlK7tK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.5" y="429.75" as="sourcePoint" />
+            <mxPoint x="269.5" y="453.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hi_B4K_7CJqPtoi9h0Xk" name="Page-2">
+    <mxGraphModel dx="1432" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QYdxPZTiIY48W7mmqleH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYdxPZTiIY48W7mmqleH-2" target="QYdxPZTiIY48W7mmqleH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYdxPZTiIY48W7mmqleH-2" value="Application" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/2833/2833637.png;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QYdxPZTiIY48W7mmqleH-3" value="File Beat" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="1">
+          <mxGeometry x="380" y="486.25" width="37.5" height="37.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
