@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.1" pages="2">
   <diagram name="01. Overview" id="VawEFED2PTLg2IfgW1YG">
     <mxGraphModel dx="1426" dy="702" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,6 +239,67 @@
         </mxCell>
         <mxCell id="w9D8JjucIjg7rp5rkJSN-66" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Mô tả hệ thông logs* kv-retail&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;1. Hệ thống sử dụng filebeat thu thập dữ liệu từ các server (infra-app, application...) sau đó gửi về đầu &lt;b&gt;logstash_beats&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;2. &lt;b&gt;logstash_beats&lt;/b&gt; được expose ra làm nhiều port, tương ứng với các sản phẩm (retail, kol, kiotqr...) và các loại log (infra, application...). Các port này được expose thông qua &lt;b&gt;haproxy-mon&lt;/b&gt; đảm bảo tính HA, scale. &lt;b&gt;logstash_beat &lt;/b&gt;sử dụng chung project với &lt;b&gt;logstash_parser&lt;/b&gt;, các pipeline sẽ sử dụng &lt;b&gt;consul-template&lt;/b&gt; để generate động ra thông qua các ENV (&lt;span style=&quot;background-color: transparent;&quot;&gt;RE_PIPELINE_INCLUDE,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;RE_PIPELINE_EXCLUDE...). Output của &lt;b&gt;logstash_parser&lt;/b&gt;&amp;nbsp;là kafka, với các topic tương ứng với các thành phần và các job_name.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;3.&amp;nbsp;&lt;b&gt;logstash_parser&lt;/b&gt;&amp;nbsp;xử lý các topic kafka được sinh ra từ &lt;b&gt;logstash_beats&lt;/b&gt;, với các filter phù hợp cho từng loại log. Sau đó đẩy lại vào kafka với các topic có tiền tố là &lt;b&gt;logstash_parser&lt;/b&gt;.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;4. &lt;b&gt;logstash_indexer&lt;/b&gt;&amp;nbsp;xử lý các topic từ kafka với prefix&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;logstash_parser&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, sau đó thêm các thông tin về data_stream (type, dataset, namespace) để đẩy vảo elasticsearch.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="10" y="350" width="380" height="351" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="coYn_lBFCzb6msHYYu6t" name="02. kv-retail-search logstash log">
+    <mxGraphModel dx="1426" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/a/ab/Haproxy-logo.png;clipPath=inset(4.66% 12.67% 11.02% 12.67%);" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="56.28" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="170" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5NDtOXGnWIML5LtIx_AU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5NDtOXGnWIML5LtIx_AU-7" value="filebeat docker&#xa;with auto-discovery" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elastic-beats.svg;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="100" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/docker-icon-icon-1024x739-rh15l33m.png;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="10" y="10" width="41.57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/docker-icon-icon-1024x739-rh15l33m.png;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="70" y="10" width="41.57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/docker-icon-icon-1024x739-rh15l33m.png;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="10" y="64" width="41.57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/docker-icon-icon-1024x739-rh15l33m.png;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="70" y="64" width="41.57" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-7" value="logstash-container" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="eBpmXMDcoS9eD6bYwb7u-8">
+          <mxGeometry x="1.5699999999999932" y="92" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-9" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="5NDtOXGnWIML5LtIx_AU-7" target="eBpmXMDcoS9eD6bYwb7u-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eBpmXMDcoS9eD6bYwb7u-10" value="beats_log_retail&amp;nbsp;&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;5063&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eBpmXMDcoS9eD6bYwb7u-9">
+          <mxGeometry x="-0.1276" y="-7" relative="1" as="geometry">
+            <mxPoint x="16" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Mroq5CY5vtIo_o5MeM1-1" value="elk-observer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.icons8.com/color/600/elasticsearch.png;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-Mroq5CY5vtIo_o5MeM1-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5NDtOXGnWIML5LtIx_AU-7" target="-Mroq5CY5vtIo_o5MeM1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="430" as="sourcePoint" />
+            <mxPoint x="80" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
