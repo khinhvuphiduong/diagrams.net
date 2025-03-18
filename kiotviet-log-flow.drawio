@@ -302,7 +302,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Mroq5CY5vtIo_o5MeM1-6" value="10.24.10.71:5070" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="140" y="420" width="100" height="20" as="geometry" />
+          <mxGeometry x="150" y="420" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-Mroq5CY5vtIo_o5MeM1-8" value="10.24.10.71:5063" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="275" width="100" height="20" as="geometry" />
