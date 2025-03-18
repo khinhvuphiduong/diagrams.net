@@ -289,7 +289,7 @@
             <mxPoint x="16" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-Mroq5CY5vtIo_o5MeM1-1" value="elk-observer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.icons8.com/color/600/elasticsearch.png;" vertex="1" parent="1">
+        <mxCell id="-Mroq5CY5vtIo_o5MeM1-1" value="elk-observer&#xa;uuid: 1MzhAidxRQiQb2K8MUd2SQ" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.icons8.com/color/600/elasticsearch.png;" vertex="1" parent="1">
           <mxGeometry x="110" y="410" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-Mroq5CY5vtIo_o5MeM1-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5NDtOXGnWIML5LtIx_AU-7" target="-Mroq5CY5vtIo_o5MeM1-1">
