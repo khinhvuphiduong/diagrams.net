@@ -290,7 +290,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-Mroq5CY5vtIo_o5MeM1-1" value="elk-observer" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.icons8.com/color/600/elasticsearch.png;" vertex="1" parent="1">
-          <mxGeometry x="160" y="400" width="40" height="40" as="geometry" />
+          <mxGeometry x="110" y="410" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-Mroq5CY5vtIo_o5MeM1-2" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5NDtOXGnWIML5LtIx_AU-7" target="-Mroq5CY5vtIo_o5MeM1-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -300,6 +300,12 @@
               <mxPoint x="190" y="370" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-Mroq5CY5vtIo_o5MeM1-6" value="10.24.10.71:5070" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-Mroq5CY5vtIo_o5MeM1-8" value="10.24.10.71:5063" style="text;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="260" y="275" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
