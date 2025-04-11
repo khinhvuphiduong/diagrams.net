@@ -5,15 +5,15 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="R82H1eUcx4x4xv4TMt8b-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="50" y="300" width="480" height="90" as="geometry" />
+          <mxGeometry x="50" y="317" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-22" target="R82H1eUcx4x4xv4TMt8b-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="70" y="110" as="sourcePoint" />
-            <mxPoint x="200" y="70" as="targetPoint" />
+            <mxPoint x="70" y="127" as="sourcePoint" />
+            <mxPoint x="200" y="87" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="100" y="120" />
-              <mxPoint x="180" y="130" />
+              <mxPoint x="100" y="137" />
+              <mxPoint x="180" y="147" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -23,18 +23,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-13" value="42.114.115.202" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/3753784-200.png;" vertex="1" parent="1">
-          <mxGeometry x="200" y="99" width="40" height="40" as="geometry" />
+          <mxGeometry x="200" y="116" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-14" value="10.12.10.10" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6179/6179044.png;" vertex="1" parent="1">
-          <mxGeometry x="430" y="19" width="50" height="50" as="geometry" />
+          <mxGeometry x="430" y="36" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-13" target="R82H1eUcx4x4xv4TMt8b-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="250" as="sourcePoint" />
-            <mxPoint x="450" y="200" as="targetPoint" />
+            <mxPoint x="400" y="267" as="sourcePoint" />
+            <mxPoint x="450" y="217" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="350" y="60" />
-              <mxPoint x="370" y="50" />
+              <mxPoint x="350" y="77" />
+              <mxPoint x="370" y="67" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -44,14 +44,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-19" value="10.12.10.34" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6179/6179044.png;" vertex="1" parent="1">
-          <mxGeometry x="430" y="169" width="50" height="50" as="geometry" />
+          <mxGeometry x="430" y="186" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-13" target="R82H1eUcx4x4xv4TMt8b-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="210" as="sourcePoint" />
-            <mxPoint x="400" y="160" as="targetPoint" />
+            <mxPoint x="350" y="227" as="sourcePoint" />
+            <mxPoint x="400" y="177" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="390" y="190" />
+              <mxPoint x="390" y="207" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -61,32 +61,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/user-icon-1024x1024-unb6q333.png;" vertex="1" parent="1">
-          <mxGeometry x="20" y="100" width="39" height="39" as="geometry" />
+          <mxGeometry x="20" y="117" width="39" height="39" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-23" value="Trỏ lại private ip cho domain &lt;b&gt;fbpos.kiotonline.com&lt;/b&gt; (lưu ý là đang đi qua CloudFare)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="69" y="310" width="481" height="30" as="geometry" />
+          <mxGeometry x="69" y="327" width="481" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/8710/8710410.png;" vertex="1" parent="1">
-          <mxGeometry x="10" y="290" width="40" height="40" as="geometry" />
+          <mxGeometry x="10" y="307" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-26" value="ssl_fbc 10.12.10.10:8443" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="210" height="40" as="geometry" />
+          <mxGeometry x="80" y="697" width="210" height="40" as="geometry" />
         </mxCell>
         <UserObject label="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;fbpos.kiotonline.com&lt;/span&gt;" link="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;fbpos.kiotonline.com&lt;/span&gt;" id="R82H1eUcx4x4xv4TMt8b-27">
           <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="10" y="10" width="130" height="30" as="geometry" />
+            <mxGeometry x="10" y="27" width="130" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-28" value="10.12.10.10" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6179/6179044.png;" vertex="1" parent="1">
-          <mxGeometry x="430" y="780" width="50" height="50" as="geometry" />
+          <mxGeometry x="430" y="797" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" target="R82H1eUcx4x4xv4TMt8b-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="880" as="sourcePoint" />
-            <mxPoint x="320" y="960" as="targetPoint" />
+            <mxPoint x="170" y="897" as="sourcePoint" />
+            <mxPoint x="320" y="977" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="820" />
-              <mxPoint x="350" y="800" />
+              <mxPoint x="270" y="837" />
+              <mxPoint x="350" y="817" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -96,44 +96,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-37" value="Retail-HAProxy" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn1.iconfinder.com/data/icons/seo-outline-colored-1/128/cloud_Share_Server_Hosting_Network_Storage_Database_Proxy-512.png;" vertex="1" parent="1">
-          <mxGeometry x="710" y="79" width="60" height="60" as="geometry" />
+          <mxGeometry x="710" y="96" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-38" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;10.12.10.10:8091&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="19" width="100" height="30" as="geometry" />
+          <mxGeometry x="490" y="36" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-39" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:8091&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="490" y="49" width="100" height="30" as="geometry" />
+          <mxGeometry x="490" y="66" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R82H1eUcx4x4xv4TMt8b-40" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;10.12.10.34:8091&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="159" width="100" height="30" as="geometry" />
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-40" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;10.12.10.34:8086&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#d79b00;fillColor=#ffe6cc;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="176" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R82H1eUcx4x4xv4TMt8b-41" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:8091&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="490" y="189" width="100" height="30" as="geometry" />
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-41" value="&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;127.0.0.1:8086&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="490" y="206" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-43" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;fbpos-saleonline-v2&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="30" width="120" height="30" as="geometry" />
+          <mxGeometry x="10" y="47" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-44" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-37" target="R82H1eUcx4x4xv4TMt8b-38">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="150" as="sourcePoint" />
-            <mxPoint x="780" y="100" as="targetPoint" />
+            <mxPoint x="730" y="167" as="sourcePoint" />
+            <mxPoint x="780" y="117" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="680" y="70" />
-              <mxPoint x="660" y="50" />
+              <mxPoint x="680" y="87" />
+              <mxPoint x="660" y="67" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-45" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-37" target="R82H1eUcx4x4xv4TMt8b-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="870" y="255" as="sourcePoint" />
-            <mxPoint x="710" y="205" as="targetPoint" />
+            <mxPoint x="870" y="272" as="sourcePoint" />
+            <mxPoint x="710" y="222" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="700" y="180" />
+              <mxPoint x="700" y="197" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="R82H1eUcx4x4xv4TMt8b-47" value="Trỏ lại front end &lt;b&gt;fb_lb &lt;/b&gt;bên Retail Haproxy" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="69" y="340" width="370" height="30" as="geometry" />
+          <mxGeometry x="69" y="357" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-48" value="fb_saleonline" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=none;noLabel=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-49" value="fb_saleonline" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-50" value="fb_saleonline" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="148" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
