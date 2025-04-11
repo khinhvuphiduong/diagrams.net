@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.1.2">
-  <diagram name="Page-1" id="Ll5X0sDcLFZZSyPZ6DUG">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.10">
+  <diagram name="KO-12397" id="Ll5X0sDcLFZZSyPZ6DUG">
+    <mxGraphModel dx="1420" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-7" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-22" target="R82H1eUcx4x4xv4TMt8b-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="110" as="sourcePoint" />
+            <mxPoint x="200" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="120" />
+              <mxPoint x="180" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-8" value="fbpos.kiotonline.com" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R82H1eUcx4x4xv4TMt8b-7">
+          <mxGeometry x="-0.2812" y="5" relative="1" as="geometry">
+            <mxPoint x="29" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-13" value="42.114.115.202" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/3753784-200.png;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-14" value="10.12.10.10" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6179/6179044.png;" vertex="1" parent="1">
+          <mxGeometry x="560" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-13" target="R82H1eUcx4x4xv4TMt8b-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="60" />
+              <mxPoint x="480" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-17" value=":443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R82H1eUcx4x4xv4TMt8b-16">
+          <mxGeometry x="-0.247" y="-4" relative="1" as="geometry">
+            <mxPoint x="68" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-19" value="10.12.10.34" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/6179/6179044.png;" vertex="1" parent="1">
+          <mxGeometry x="560" y="170" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="R82H1eUcx4x4xv4TMt8b-13" target="R82H1eUcx4x4xv4TMt8b-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="160" />
+              <mxPoint x="460" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-21" value=":443" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R82H1eUcx4x4xv4TMt8b-20">
+          <mxGeometry x="0.0357" y="1" relative="1" as="geometry">
+            <mxPoint x="28" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/user-icon-1024x1024-unb6q333.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-23" value="Trỏ lại private ip cho domain fbpos.kiotonline.com (lưu ý là đang đi qua CloudFare)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="59" y="250" width="481" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/8710/8710410.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R82H1eUcx4x4xv4TMt8b-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="800" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
