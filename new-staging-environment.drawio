@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.15">
   <diagram name="Page-1" id="dLwagWigHJylYRhr7byR">
-    <mxGraphModel dx="1233" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1233" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zr48DvdfPHjfLI16CQ7y-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Haproxy-logo.png/640px-Haproxy-logo.png;" vertex="1" parent="1">
-          <mxGeometry x="390" y="520" width="63.61" height="50" as="geometry" />
+          <mxGeometry x="200" y="585" width="63.61" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zr48DvdfPHjfLI16CQ7y-8" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="280" y="210" width="185" height="95" as="geometry" />
@@ -75,7 +75,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zr48DvdfPHjfLI16CQ7y-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="427" y="365" width="153" height="115" as="geometry" />
+          <mxGeometry x="20" y="510" width="153" height="115" as="geometry" />
         </mxCell>
         <mxCell id="zr48DvdfPHjfLI16CQ7y-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="zr48DvdfPHjfLI16CQ7y-32">
           <mxGeometry width="153" height="85" as="geometry" />
@@ -91,6 +91,21 @@
         </mxCell>
         <mxCell id="zr48DvdfPHjfLI16CQ7y-31" value="Operation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="zr48DvdfPHjfLI16CQ7y-32">
           <mxGeometry x="46.5" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zr48DvdfPHjfLI16CQ7y-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://gitlab.com/uploads/-/system/project/avatar/11674053/gitlab-ci-cd-logo_2x.png;" vertex="1" parent="1">
+          <mxGeometry x="48.69" y="670" width="62.63" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zr48DvdfPHjfLI16CQ7y-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/144_Gitlab_logo_logos-512.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="790" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zr48DvdfPHjfLI16CQ7y-39" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/file-type-nginx-icon-1793x2048-yt5u3fm7.png;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="35.03" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zr48DvdfPHjfLI16CQ7y-81" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/internet-icon-1024x1024-17xg0vsk.png;" vertex="1" parent="1">
+          <mxGeometry x="190" y="950" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zr48DvdfPHjfLI16CQ7y-82" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/8336/8336875.png;" vertex="1" parent="1">
+          <mxGeometry x="80" y="960" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
