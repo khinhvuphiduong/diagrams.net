@@ -114,10 +114,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kx33KlGFL2RAI9X3295d" name="Problem">
-    <mxGraphModel dx="1151" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1978" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AIRgtsEmwU7N2GugSFp--2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="44.5" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="wSORsGMZiU4wdRGppfEa-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;opacity=30;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="80" y="-30" width="520" height="520" as="geometry" />
         </mxCell>
@@ -307,7 +310,23 @@
           <mxGeometry x="43" y="62" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2JdUdqRK76ogy-2T3I79-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/ansible-icon-2048x2048-mc4z634w.png;" vertex="1" parent="1">
-          <mxGeometry x="330" y="540" width="30" height="30" as="geometry" />
+          <mxGeometry x="56" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AIRgtsEmwU7N2GugSFp--1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://gitlab.com/uploads/-/system/project/avatar/11674053/gitlab-ci-cd-logo_2x.png;" vertex="1" parent="1">
+          <mxGeometry x="110.75999999999999" y="535" width="44.74" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AIRgtsEmwU7N2GugSFp--4" value="Configuration - Provision -Deploying" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="585" width="234.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AIRgtsEmwU7N2GugSFp--6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AIRgtsEmwU7N2GugSFp--2" target="wSORsGMZiU4wdRGppfEa-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="570" as="sourcePoint" />
+            <mxPoint x="260" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="570" />
+              <mxPoint x="210" y="520" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
