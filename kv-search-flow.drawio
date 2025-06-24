@@ -1,85 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="rusU8i9yw-daWQ4WOf54">
-    <mxGraphModel dx="1223" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-29" target="Dhi8sy_UzFX0rJJhaV-Q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="391" y="49.55000000000001" width="86" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="120" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.icon-icons.com/2699/PNG/512/rabbitmq_logo_icon_170812.png;clipPath=inset(16.67% 1.33% 28.67% 1.67%);" vertex="1" parent="1">
-          <mxGeometry x="284" y="110" width="106.46" height="30" as="geometry" />
+          <mxGeometry x="218.39" y="70" width="103.23" height="29.09" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5044/5044729.png;" vertex="1" parent="1">
-          <mxGeometry x="54" y="105" width="35" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-4" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-2" target="Dhi8sy_UzFX0rJJhaV-Q-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="174" y="120" as="sourcePoint" />
-            <mxPoint x="224" y="70" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="224" y="120" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="70" y="70" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-5" value="&lt;b&gt;vhost&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;retail-synces-app&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;div&gt;&lt;b&gt;queue&lt;/b&gt;: SyncProductSearch&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="114" y="80" width="160" height="40" as="geometry" />
+          <mxGeometry x="205" y="10" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-6" value="kv-synces-product-search-transfer-kafka " style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/6387/6387426.png;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="317.23" y="200" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-7" value="" style="curved=1;endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-6" target="Dhi8sy_UzFX0rJJhaV-Q-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="373" y="190" as="sourcePoint" />
-            <mxPoint x="423" y="140" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-11" target="Dhi8sy_UzFX0rJJhaV-Q-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-11" target="Dhi8sy_UzFX0rJJhaV-Q-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="335" y="160" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.icon-icons.com/2699/PNG/512/apache_kafka_vertical_logo_icon_169585.png;" vertex="1" parent="1">
-          <mxGeometry x="504" y="108.19000000000005" width="40" height="41.81" as="geometry" />
+          <mxGeometry x="412.04" y="64.54999999999995" width="43.92" height="45.91" as="geometry" />
         </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-6" target="Dhi8sy_UzFX0rJJhaV-Q-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="474" y="230" as="sourcePoint" />
-            <mxPoint x="524" y="180" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-14" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;retail-synces-app&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=-30;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="351.5" y="150.66999999999996" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-15" value="kv-synces-product-search" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/6387/6387426.png;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="504" y="200" width="40" height="40" as="geometry" />
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-14" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;SyncProductSearchService-live-dc1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="336" y="15" width="196" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-18" target="Dhi8sy_UzFX0rJJhaV-Q-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-18" value="kv-search-logstash-kafka" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.freepik.com/512/6387/6387426.png;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="614" y="109.10000000000002" width="40" height="40" as="geometry" />
+          <mxGeometry x="570" y="64.55000000000001" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-20" value="elasticSearch" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.worldvectorlogo.com/logos/elasticsearch.svg;container=0;fontStyle=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="734" y="109.10000000000002" width="40" height="40" as="geometry" />
+          <mxGeometry x="690" y="64.55000000000001" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-15" target="Dhi8sy_UzFX0rJJhaV-Q-11">
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-28" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-2" target="Dhi8sy_UzFX0rJJhaV-Q-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="674" y="290" as="sourcePoint" />
-            <mxPoint x="724" y="240" as="targetPoint" />
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="180" y="80" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="604" y="220" />
+              <mxPoint x="130" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-23" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;retail-synces-app&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=-30;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="410.78" y="180" width="133.22" height="30" as="geometry" />
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-31" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-6" target="Dhi8sy_UzFX0rJJhaV-Q-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="361.59" y="220" as="sourcePoint" />
+            <mxPoint x="411.59" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-25" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;SyncProductSearchService-live-dc1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=0;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="574" y="180" width="200" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-26" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;SyncProductSearchService-live-dc1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=-30;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="544" y="60" width="200" height="30" as="geometry" />
+        <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-33" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dhi8sy_UzFX0rJJhaV-Q-27" target="Dhi8sy_UzFX0rJJhaV-Q-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
