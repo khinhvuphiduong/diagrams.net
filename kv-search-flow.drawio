@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-23" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;retail-synces-app&lt;/span&gt;&lt;span style=&quot;background-color: transparent; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=-30;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="424" y="170" width="133.22" height="30" as="geometry" />
+          <mxGeometry x="410.78" y="180" width="133.22" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-25" value="&lt;b&gt;topic&lt;/b&gt;:&amp;nbsp;SyncProductSearchService-live-dc1" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;spacingLeft=2;rotation=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="574" y="180" width="200" height="30" as="geometry" />
