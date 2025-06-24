@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-27" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="270" y="40.000000000000014" width="226.08" height="70" as="geometry" />
+          <mxGeometry x="260" y="40" width="236.08" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6RFawGCEbu_1lOqLiOUP-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="270" y="287.5" width="230" height="60" as="geometry" />
+          <mxGeometry x="260" y="287.5" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6RFawGCEbu_1lOqLiOUP-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontColor=#333333;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="270" y="136.51" width="230" height="126" as="geometry" />
+          <mxGeometry x="260" y="136.51" width="240" height="126" as="geometry" />
         </mxCell>
         <mxCell id="Dhi8sy_UzFX0rJJhaV-Q-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5044/5044729.png;" parent="1" vertex="1">
           <mxGeometry x="103.92000000000002" y="40.000000000000014" width="35" height="35" as="geometry" />
