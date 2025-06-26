@@ -734,129 +734,129 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qixQmm_3rcTzHUck4BIl" name="Preparing Server and Docker Swarm">
-    <mxGraphModel dx="1185" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="748" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="498.24" y="2" width="313" height="310" as="geometry" />
+          <mxGeometry x="58.900000000000034" y="669" width="313" height="310" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="10" width="313" height="582" as="geometry" />
+          <mxGeometry x="72" y="2" width="633" height="324" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="23" y="262" width="290" height="270" as="geometry" />
+          <mxGeometry x="403" y="12" width="290" height="270" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="26.47999999999999" y="12" width="286.52" height="200" as="geometry" />
+          <mxGeometry x="85.19999999999999" y="54" width="286.52" height="200" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="33.44" y="22" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="92.16" y="64" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="140.40000000000003" y="34" width="26" height="26" as="geometry" />
+          <mxGeometry x="199.12000000000003" y="76" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-10" value="&lt;div&gt;- master_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- monitor: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_1: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="166.39999999999998" y="12" width="100" height="70" as="geometry" />
+          <mxGeometry x="225.11999999999998" y="54" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="29.959999999999994" y="82" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="88.67999999999999" y="124" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="136.92000000000002" y="94" width="26" height="26" as="geometry" />
+          <mxGeometry x="195.64000000000001" y="136" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-13" value="&lt;div&gt;- master_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_2: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="162.91999999999996" y="72" width="100" height="70" as="geometry" />
+          <mxGeometry x="221.63999999999996" y="114" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="29.959999999999994" y="142" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="88.67999999999999" y="184" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="136.92000000000002" y="154" width="26" height="26" as="geometry" />
+          <mxGeometry x="195.64000000000001" y="196" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-16" value="&lt;div&gt;- master_3: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_3: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_3: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="162.91999999999996" y="132" width="100" height="70" as="geometry" />
+          <mxGeometry x="221.63999999999996" y="174" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="23" y="284" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="403" y="34" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="129.96000000000004" y="296" width="26" height="26" as="geometry" />
+          <mxGeometry x="509.96000000000004" y="46" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-19" value="&lt;div&gt;- data_4: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_jdbc_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;-logstash_kafka_1: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="155.95999999999998" y="274" width="142.02" height="70" as="geometry" />
+          <mxGeometry x="535.96" y="24" width="142.02" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="23" y="344" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="403" y="94" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="129.96000000000004" y="356" width="26" height="26" as="geometry" />
+          <mxGeometry x="509.96000000000004" y="106" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-23" value="&lt;div&gt;- data_5: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_jdbc_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_kafka_2: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="155.95999999999998" y="334" width="142.02" height="70" as="geometry" />
+          <mxGeometry x="535.96" y="84" width="142.02" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="23" y="404" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="403" y="154" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="129.96000000000004" y="416" width="26" height="26" as="geometry" />
+          <mxGeometry x="509.96000000000004" y="166" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-26" value="&lt;div&gt;- data_6: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_6: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="155.95999999999998" y="394" width="142.02" height="70" as="geometry" />
+          <mxGeometry x="535.96" y="144" width="142.02" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="26.480000000000004" y="464" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="406.48" y="214" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="133.44000000000005" y="476" width="26" height="26" as="geometry" />
+          <mxGeometry x="513.44" y="226" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-29" value="&lt;div&gt;- data_7: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_7: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="159.44" y="454" width="142.02" height="70" as="geometry" />
+          <mxGeometry x="539.44" y="204" width="142.02" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-31" value="retail-search-leader" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="78.60000000000002" y="212" width="149.6" height="30" as="geometry" />
+          <mxGeometry x="137.32000000000002" y="254" width="149.6" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-32" value="retail-search-worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="78.6" y="542" width="149.6" height="30" as="geometry" />
+          <mxGeometry x="458.6" y="292" width="149.6" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-34" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="506.48" y="12" width="296.52" height="270" as="geometry" />
+          <mxGeometry x="67.14000000000004" y="679" width="296.52" height="270" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="513.44" y="34" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="74.10000000000008" y="701" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-36" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="620.4000000000001" y="46" width="26" height="26" as="geometry" />
+          <mxGeometry x="181.06000000000012" y="713" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-37" value="&lt;div&gt;- master_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- monitor: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_jdbc_1: &quot;true&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="646.4" y="24" width="116.6" height="70" as="geometry" />
+          <mxGeometry x="207.06" y="691" width="116.6" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="513.44" y="127" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="74.10000000000008" y="794" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-39" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="620.4000000000001" y="139" width="26" height="26" as="geometry" />
+          <mxGeometry x="181.06000000000012" y="806" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-40" value="&lt;div&gt;- master_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_2: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_kafka_1: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_jdbc_2: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="646.4" y="112" width="156.6" height="80" as="geometry" />
+          <mxGeometry x="207.06" y="779" width="156.6" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-41" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://icons.veryicon.com/png/o/internet--web/digital-icon-simple-version/server-single.png;clipPath=inset(29.33% 6.67% 30% 6.33%);" vertex="1" parent="1">
-          <mxGeometry x="513.44" y="214" width="106.96" height="50" as="geometry" />
+          <mxGeometry x="74.10000000000008" y="881" width="106.96" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-42" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1611/1611168.png;" vertex="1" parent="1">
-          <mxGeometry x="620.4000000000001" y="226" width="26" height="26" as="geometry" />
+          <mxGeometry x="181.06000000000012" y="893" width="26" height="26" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-43" value="&lt;div&gt;- master_3: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- data_3: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- init_3: &quot;true&quot;&lt;/div&gt;&lt;div&gt;- logstash_kafka_2: &quot;true&quot;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="646.4" y="204" width="150.08" height="70" as="geometry" />
+          <mxGeometry x="207.06" y="871" width="150.08" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-56" value="retail-search-leader" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="593" y="284" width="149.6" height="30" as="geometry" />
+          <mxGeometry x="153.66000000000003" y="951" width="149.6" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-C6bvBaNl1SwUmAaj3Gm-59" value="DC1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="116.44" y="582" width="60" height="30" as="geometry" />
+        <mxCell id="-C6bvBaNl1SwUmAaj3Gm-59" value="DC1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;rotation=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="358.5" y="329" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-C6bvBaNl1SwUmAaj3Gm-60" value="DEV" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="624.74" y="314" width="60" height="30" as="geometry" />
+          <mxGeometry x="185.40000000000003" y="981" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
