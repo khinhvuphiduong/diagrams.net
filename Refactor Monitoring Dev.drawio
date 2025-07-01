@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0" version="27.1.6">
   <diagram name="Page-1" id="OS7kB58Nq9Wkev9PfROA">
-    <mxGraphModel>
+    <mxGraphModel dx="1366" dy="710" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-1" target="BY4YNrwgtBcagiwQIYeH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-1" value="Re-structure Consul/Vault" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="167.5" width="98" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-2" target="BY4YNrwgtBcagiwQIYeH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-2" value="Refactor Exporter Job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="167.5" width="98" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-3" target="BY4YNrwgtBcagiwQIYeH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-3" value="Refactor CI/CD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="167.5" width="98" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-4" target="BY4YNrwgtBcagiwQIYeH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-4" value="Refactor Prometheus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="252" width="98" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-5" target="BY4YNrwgtBcagiwQIYeH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-5" value="Refactor Grafna" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="252" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-7" target="BY4YNrwgtBcagiwQIYeH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-7" value="S" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="67" y="176" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-8" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="67" y="260.5" width="35" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BY4YNrwgtBcagiwQIYeH-18" target="BY4YNrwgtBcagiwQIYeH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BY4YNrwgtBcagiwQIYeH-18" value="Deploy to the right environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="252" width="98" height="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
