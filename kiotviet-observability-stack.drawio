@@ -105,29 +105,29 @@
           <mxGeometry x="470" y="561" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="336" width="390" height="260" as="geometry" />
+          <mxGeometry x="730" y="336" width="390" height="260" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-38" target="XRNlP5tKe3QkDA2xPTq3-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-38" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;include_vars&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;vars/{{ &#39;filebeat_&#39; +&amp;nbsp;&lt;b&gt;filebeat_type&lt;/b&gt;&amp;nbsp;+ &#39;_type&#39; }}.yaml&quot;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="815" y="360" width="295" height="30" as="geometry" />
+          <mxGeometry x="765" y="360" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-39" target="XRNlP5tKe3QkDA2xPTq3-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-39" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;set fact&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;output_logstash_host&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="815" y="430" width="295" height="30" as="geometry" />
+          <mxGeometry x="765" y="430" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-41" value="&lt;b&gt;task&lt;/b&gt;: Apply config&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;filebeat.yml.j2&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;filebeat_inputs&lt;br&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;output_logstash_host&lt;br&gt;&amp;nbsp; &amp;nbsp; inventory_hostname&lt;br&gt;&amp;nbsp; &amp;nbsp; filebeat_type&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="815" y="486" width="295" height="96" as="geometry" />
+          <mxGeometry x="765" y="486" width="295" height="96" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-38" target="XRNlP5tKe3QkDA2xPTq3-41">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1250" y="461.0000000000002" as="sourcePoint" />
-            <mxPoint x="1290" y="410.2" as="targetPoint" />
+            <mxPoint x="1200" y="461.0000000000002" as="sourcePoint" />
+            <mxPoint x="1240" y="410.2" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1150" y="441" />
+              <mxPoint x="1100" y="441" />
             </Array>
           </mxGeometry>
         </mxCell>
