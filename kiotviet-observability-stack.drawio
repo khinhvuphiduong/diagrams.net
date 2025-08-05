@@ -1,73 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.0.7" pages="2">
   <diagram name="ansible-win-filebeat" id="ioeJzIKmzpDVDCs3MVX7">
-    <mxGraphModel dx="1202" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2822" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="430" width="310" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-1" target="XRNlP5tKe3QkDA2xPTq3-2">
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-1" target="XRNlP5tKe3QkDA2xPTq3-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-1" value="Ansible" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="10" width="120" height="30" as="geometry" />
+          <mxGeometry x="480" y="40" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-2" target="XRNlP5tKe3QkDA2xPTq3-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-2" value="&lt;b&gt;playbook&lt;/b&gt;:&amp;nbsp;playbook-infra-windows-mssql-config-filebeat&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px; background-color: transparent;&quot;&gt;playbook_vars&lt;/b&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px; background-color: transparent;&quot;&gt;:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;blockquote style=&quot;font-size: 10px; margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;filebeat_type&lt;/b&gt;: infra&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;output_logstash_var_name&lt;/b&gt;: mon_logstash_mssql_host&lt;/span&gt;&lt;div style=&quot;margin-right: 0px;&quot;&gt;&lt;b&gt;register_to_consul&lt;/b&gt;: &quot;true&quot;&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="90" width="380" height="80" as="geometry" />
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-2" value="&lt;b&gt;playbook&lt;/b&gt;:&amp;nbsp;playbook-infra-windows-mssql-config-filebeat" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-3" value="&lt;b&gt;playbook&lt;/b&gt;:&amp;nbsp;playbook-retail-windows-config-filebeat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="90" width="300" height="40" as="geometry" />
+          <mxGeometry x="1500" y="80" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-4" value="&lt;b&gt;playbook&lt;/b&gt;:&amp;nbsp;playbook-infra-windows-config-filebeat" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="140" width="300" height="40" as="geometry" />
+          <mxGeometry x="1500" y="130" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-6" value="&lt;b&gt;group&lt;/b&gt;:&amp;nbsp;retail-mssql-server" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="420" width="150" height="30" as="geometry" />
+          <mxGeometry x="1610" y="410" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-7" value="&lt;b&gt;group&lt;/b&gt;:&lt;div&gt;&lt;div&gt;- retail-api-windows-importance&lt;/div&gt;&lt;div&gt;- retail-api-windows-normal&lt;/div&gt;&lt;div&gt;- retail-service-windows-importance&lt;/div&gt;&lt;div&gt;- retail-service-windows-normal&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="210" width="200" height="80" as="geometry" />
+          <mxGeometry x="1550" y="200" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-9" value="&lt;b&gt;group_vars&lt;/b&gt;:&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1630" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-10" value="&lt;b&gt;role_vars&lt;/b&gt;:&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1760" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-11" value="&lt;b&gt;playbook_vars&lt;/b&gt;:&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1460" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-12" value="&lt;b&gt;group_vars&lt;/b&gt;:&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1590" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-13" value="&lt;b&gt;role_vars&lt;/b&gt;:&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1720" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-16" target="XRNlP5tKe3QkDA2xPTq3-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-16" value="&lt;b&gt;role&lt;/b&gt;:&amp;nbsp;fetch-environment-vars&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;variable_names:&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; - mon_logstash_mssql_host&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="290" width="210" height="60" as="geometry" />
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-16" value="&lt;b&gt;role&lt;/b&gt;:&amp;nbsp;fetch-environment-vars" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="435" y="290" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-17" target="XRNlP5tKe3QkDA2xPTq3-23">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="220" />
-              <mxPoint x="540" y="410" />
+              <mxPoint x="730" y="220" />
+              <mxPoint x="730" y="410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-17" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="60" height="40" as="geometry" />
+          <mxGeometry x="510" y="200" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-17" target="XRNlP5tKe3QkDA2xPTq3-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-22" value="filebeat_infra_type is defined" style="text;whiteSpace=wrap;fontStyle=1;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="240" width="140" height="20" as="geometry" />
+          <mxGeometry x="470" y="240" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-23" target="XRNlP5tKe3QkDA2xPTq3-28">
           <mxGeometry relative="1" as="geometry" />
@@ -75,49 +72,123 @@
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-23" target="XRNlP5tKe3QkDA2xPTq3-31">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="410" />
-              <mxPoint x="180" y="570" />
+              <mxPoint x="370" y="381" />
+              <mxPoint x="370" y="541" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-23" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="60" height="40" as="geometry" />
+          <mxGeometry x="510" y="361" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-27" value="filebeat_infra_type is defined" style="text;whiteSpace=wrap;fontStyle=1;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="430" width="140" height="20" as="geometry" />
+          <mxGeometry x="470" y="401" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-28" target="XRNlP5tKe3QkDA2xPTq3-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-28" target="XRNlP5tKe3QkDA2xPTq3-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-28" value="&lt;b&gt;role&lt;/b&gt;:&amp;nbsp;config-filebeat-windows" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="480" width="210" height="30" as="geometry" />
+          <mxGeometry x="435" y="451" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-30" value="&lt;b&gt;role&lt;/b&gt;:&amp;nbsp;register-consul-service" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="245" y="630" width="210" height="30" as="geometry" />
+          <mxGeometry x="435" y="601" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-31" target="XRNlP5tKe3QkDA2xPTq3-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-31" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="550" width="60" height="40" as="geometry" />
+          <mxGeometry x="510" y="521" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-35" value="register_to_consul == &quot;true&quot;" style="text;whiteSpace=wrap;verticalAlign=middle;fontStyle=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="280" y="590" width="140" height="20" as="geometry" />
+          <mxGeometry x="470" y="561" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="336" width="390" height="260" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-38" target="XRNlP5tKe3QkDA2xPTq3-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-38" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;include_vars&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;vars/file_beat {{ &lt;b&gt;file_beat_type&lt;/b&gt; }}_type.yaml&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="655" y="454" width="265" height="30" as="geometry" />
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-38" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;include_vars&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;vars/{{ &#39;filebeat_&#39; +&amp;nbsp;&lt;b&gt;filebeat_type&lt;/b&gt;&amp;nbsp;+ &#39;_type&#39; }}.yaml&quot;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="815" y="360" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-39" target="XRNlP5tKe3QkDA2xPTq3-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XRNlP5tKe3QkDA2xPTq3-39" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;set variables&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;output_logstash_host&lt;/b&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="655" y="524" width="265" height="30" as="geometry" />
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-39" value="&lt;b&gt;task&lt;/b&gt;:&amp;nbsp;set fact&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;output_logstash_host&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="815" y="430" width="295" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XRNlP5tKe3QkDA2xPTq3-41" value="&lt;b&gt;task&lt;/b&gt;: Apply config&lt;br&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 10px; border: none; padding: 0px;&quot;&gt;&lt;b&gt;filebeat.yml.j2&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;filebeat_inputs&lt;br&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;output_logstash_host&lt;br&gt;&amp;nbsp; &amp;nbsp; inventory_hostname&lt;br&gt;&amp;nbsp; &amp;nbsp; filebeat_type&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="655" y="580" width="265" height="96" as="geometry" />
+          <mxGeometry x="815" y="486" width="295" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-38" target="XRNlP5tKe3QkDA2xPTq3-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1250" y="461.0000000000002" as="sourcePoint" />
+            <mxPoint x="1290" y="410.2" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="441" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-60" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;filebeat_inputs&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=90;" vertex="1" connectable="0" parent="XRNlP5tKe3QkDA2xPTq3-46">
+          <mxGeometry x="0.0312" y="-17" relative="1" as="geometry">
+            <mxPoint x="17" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-49" value="&lt;b&gt;extra_vars:&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;margin-left: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="40" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-50" value="&lt;b&gt;play_vars&lt;/b&gt;/&lt;div&gt;&lt;div style=&quot;margin-left: 10px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px; background-color: transparent;&quot;&gt;&lt;b&gt;filebeat_type&lt;/b&gt;: infra&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px; background-color: transparent;&quot;&gt;&lt;b&gt;output_logstash_var_name&lt;/b&gt;: mon_logstash_mssql_host&lt;/span&gt;&lt;div style=&quot;font-size: 10px; margin-right: 0px;&quot;&gt;&lt;b&gt;register_to_consul&lt;/b&gt;: &quot;true&quot;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="135" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-52" value="&lt;b&gt;role_vars&lt;/b&gt;/&lt;b&gt;vars_files&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;margin-left: 10px;&quot;&gt;vars/{{ &#39;filebeat_&#39; + &lt;b&gt;filebeat_type&lt;/b&gt;&amp;nbsp;+ &#39;_type&#39; }}.yaml&quot;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="495" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-53" value="&lt;b&gt;groups_vars:&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;margin-left: 10px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 10px;&quot;&gt;&lt;b&gt;filebeat_infra_type&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;: &lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;retail-mssql&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="375" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-54" value="&lt;b&gt;host_vars:&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;margin-left: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="260" width="360" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-55" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-50" target="XRNlP5tKe3QkDA2xPTq3-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="330" as="sourcePoint" />
+            <mxPoint x="-160" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="290" />
+              <mxPoint x="-200" y="420" />
+              <mxPoint x="-160" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-59" value="&lt;span style=&quot;font-size: 12px; text-align: left; text-wrap-mode: wrap; background-color: rgb(236, 236, 236);&quot;&gt;filebeat_type&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="XRNlP5tKe3QkDA2xPTq3-55">
+          <mxGeometry x="-0.298" y="15" relative="1" as="geometry">
+            <mxPoint x="-4" y="218" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-61" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="490" as="sourcePoint" />
+            <mxPoint x="-90" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-63" value="&lt;span style=&quot;background-color: rgb(236, 236, 236);&quot;&gt;filebeat_infra_type&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XRNlP5tKe3QkDA2xPTq3-61">
+          <mxGeometry x="0.277" y="7" relative="1" as="geometry">
+            <mxPoint x="-11" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-65" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;u&gt;Step 1:&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 20px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;filebeat_type&lt;/b&gt;: infra&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;vars/{{ &#39;filebeat_&#39; +&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;&quot;&gt;filebeat_type&lt;/b&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ &#39;_type&#39; }}.yaml&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;⇢&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;vars/{{ &quot;filebeat_infra_type&quot; }}.yaml&lt;/div&gt;&lt;/blockquote&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;b&gt;&lt;u&gt;Step 2:&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 20px; border: none; padding: 0px;&quot;&gt;&lt;div&gt;&lt;b&gt;filebeat_infra_type&lt;/b&gt;: retail-masql&lt;/div&gt;&lt;div style=&quot;margin-left: 0px;&quot;&gt;vars/{{ &quot;filebeat_infra_type&quot; }}.yaml&lt;/div&gt;&lt;div style=&quot;margin-left: 0px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;⇢&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;vars/&lt;/span&gt;retail-masql&lt;span style=&quot;&quot;&gt;.yaml&lt;/span&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="580" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XRNlP5tKe3QkDA2xPTq3-66" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="XRNlP5tKe3QkDA2xPTq3-65" target="XRNlP5tKe3QkDA2xPTq3-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="710" as="sourcePoint" />
+            <mxPoint x="-110" y="660" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
