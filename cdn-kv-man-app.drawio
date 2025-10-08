@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.2.5">
   <diagram name="Page-1" id="5vbq9QBsquuNwKe7Fpxk">
-    <mxGraphModel dx="1465" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1465" dy="744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
             <mxPoint x="-27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BLaXcHk2Hv-nF53mvA2e-18" value="Step 1: Clone or re-upload to CND PROD&lt;br&gt;Step 2: Edit file index.html&lt;br&gt;Step 3: Edit file sw.js" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="BLaXcHk2Hv-nF53mvA2e-18" value="Step 1: &lt;b&gt;Clone or re-upload to CND PROD&lt;/b&gt;&lt;br&gt;Step 2: Edit file &lt;b&gt;index.html&lt;/b&gt;&lt;br&gt;Step 3: Edit file &lt;b&gt;sw.js&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="327.5" y="190" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BLaXcHk2Hv-nF53mvA2e-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="BLaXcHk2Hv-nF53mvA2e-10" target="BLaXcHk2Hv-nF53mvA2e-18">
